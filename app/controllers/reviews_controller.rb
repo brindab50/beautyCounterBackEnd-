@@ -1,10 +1,17 @@
 class ReviewsController < ApplicationController
   
+    # def index
+    #   reviews = Review.where(product_id: params['product_id']).includes(:product)
+    #   render json: reviews
+    # end
+    
+
     def index
-      reviews = Review.where(product_id: params['product_id']).includes(:product)
+      reviews = Review.all
       render json: reviews
     end
-    
+
+
     def create
       review = Review.new(review_params)
       if review.save
@@ -48,7 +55,7 @@ class ReviewsController < ApplicationController
     private
   
     def review_params
-      params.require(:review).permit(:rating, :review, :user_id, :product_id)
+      params.require(:review).permit(:review, :product_id)
     end
   
   end

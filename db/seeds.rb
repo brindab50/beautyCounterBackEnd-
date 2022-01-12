@@ -15,8 +15,6 @@ Product.destroy_all
 SkinConcern.destroy_all
 ProductSkinConcern.destroy_all
 CartItem.destroy_all
-
-
 double_cleanse = ProductCategory.create('name': 'double cleanse')
 exfoliators = ProductCategory.create('name': 'exfoliators')
 toners = ProductCategory.create('name': 'toners')
@@ -58,33 +56,12 @@ redness = SkinConcern.create('name': 'redness')
 sensitive = SkinConcern.create('name': 'sensitive')
 
 products = [
-  {
-    'brand': 'COSRX',
-    'name': 'Triple C Lightning Liquid',
-    'short_description': 'The Triple C Lightning Liquid is a vitamin C serum that attacks pigmentation & lightens brown spots & acne scars. Bring radiance & balance back to your skin.',
-    'detail': "An exclusive collaboration between popular Korean acne brand COSRX and Charlotte Cho, the Triple C Lightning Liquid is a powerful vitamin C serum. Launched in 2017, Triple C sold out within four hours of launching, and has since become a cult favorite!
-    ⚡WHAT DOES VITAMIN C DO FOR YOUR SKIN? It attacks pigmentation and immediately lightens brown spots and acne scars, bringing radiance and balance back to skin.
-    ⚡KEY INGREDIENTS: Contains 20.5% pure vitamin C (ascorbic acid) and 72% black chokeberry, a special ingredient that stabilizes the high concentration of vitamin C to make sure skin remains hydrated and smooth. 
-    ⚡WHO IS IT FOR?
-    ⚡IT'S SUPER SUPER SUPER FRESH. In order for a pure vitamin C serum to be effective, it must be fresh. That's why we're making all Triple C Lightning Liquids in small batches and air shipping them directly from Korea to ensure that the serums are fresh and high quality. To maximize the effectiveness of your serum, it's best to store it in the refrigerator or a cool, dark place. Keep the bottle air tight!
-    – pH level of 3– Fragrance Free – 1 oz/30 ml
-    Featured on Refinery 29",
-    'price': 27,
-    'link': '/collections/skincare/products/cosrx-triple-c-lightning-liquid',
-    'special_link': '/collections/best-sellers/products/cosrx-triple-c-lightning-liquid',
-    'brand_link': '/collections/cosrx',
-    'ingredients': 'Aronia Melanocarpa fruit extract (Black Chokeberry), Ascorbic acid (Vitamin C), Butylene glycol, Sodium lactate, Licorice root extract, 1,2- Hexanediol, Pullulan, Sodium hyaluronate, Cassia obtusifolia seed extract, Allantoin',
-    'how_to_use': 'If you’re new to acids or have sensitive skin, start by mixing 2-3 drops in your moisturizer and applying onto your face every night. If you see no signs of irritation after two weeks, apply 1-2 drops directly onto your skin every other night, always following with a hydrating moisturizer. Gradually work your way up to applying the serum every night. This Vitamin C serum is recommended as a night treatment. If used before sun exposure, make sure to apply sunscreen.
-    Triple C Lightning Liquid is a highly concentrated serum with pure Vitamin C, so your skin may feel sensitive or tingly upon application',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/COSRX_Triple_C_Lightening_Liquid_PDP_low_860x.jpg?v=1573169124',
-    'skin_type': 'normal',
-    'product_type': serum_and_ampoule,
-  },
+
   {
     'brand': 'COSRX',
     'name': 'Acne Pimple Master Patch',
     'short_description': 'The thin clear hydrocolloid patch is an overnight fixer to make whiteheads, blackheads & picked zits disappear by morning. Find treatments for your skin type.',
-    'detail': "Finally, an acne treatment that treats acne for what it really is, an infected wound. These little pimple patches are an overnight fixer to make whiteheads, blackheads and picked zits disappear by morning. 
+    'detail': "Finally, an acne treatment that treats acne for what it really is, an infected wound. These little cosrx Acne pimple patches are an overnight fixer to make whiteheads, blackheads and picked zits disappear by morning. 
     As featured on The Strategist 
     The thin clear hydrocolloid patch feels similar to a hydrogel sheet mask in texture, adhering your skin strongly. It'll stay on through showering and washing! It treats breakouts by eliminating infection and bacteria, which is what causes them in the first place. It's able to breakdown debris from blackheads and absorb gunk from whiteheads overnight, so you won't experience a harsh dry patch from using this. It even helps flatten and heal cystic acne faster!
     With three differently sized patches in a pack, you can choose which one will cover your bases.
@@ -104,9 +81,9 @@ products = [
   {
     'brand': 'ACWELL',
     'name': 'Licorice pH Balancing Cleansing Toner',
-    'short_description': 'Deep clean and brighten your skin with this specially formulated toner! Experience the difference a pH level of 5.5 can make to effectively balance your skin.',
+    'short_description': 'Deep clean and brighten your skin with this specially formulated ACWELL Cleansing toner! Experience the difference a pH level of 5.5 can make to effectively balance your skin.',
     'detail': "Deep clean and brighten your skin with this specially-formulated toner that’s perfect for all skin types!
-    This toner has a pH level of 5.5 to effectively balance your skin. Peony extract and a high concentration of licorice water - both natural brighteners - seep into skin to add an extra dose of luminosity to your complexion. Green tea extract also helps calm and reduce pigmentation, including acne scars and dark spots. After use, skin feels clean and smooth, not dry or tight. Because it’s so good at removing any impurities left on the skin post-cleanser, it helps the rest of the products in your routine absorb better.
+    This acwell toner has a pH level of 5.5 to effectively balance your skin. Peony extract and a high concentration of licorice water - both natural brighteners - seep into skin to add an extra dose of luminosity to your complexion. Green tea extract also helps calm and reduce pigmentation, including acne scars and dark spots. After use, skin feels clean and smooth, not dry or tight. Because it’s so good at removing any impurities left on the skin post-cleanser, it helps the rest of the products in your routine absorb better.
     5 fl. oz./150ml
     The toner is your ticket to achieving glowing, supple “honey skin”. Follow with the Neogen Real Ferment Micro Essence for even more flawless results.
     🍯What is 'honey skin'?🍯
@@ -127,7 +104,7 @@ products = [
     'brand': 'SON & PARK',
     'name': 'Beauty Water',
     'short_description': 'This multi-tasking toner and cleansing water exfoliates with willow bark and papaya extract to clear away dead skin cells. Reveal a brighter skin tone.',
-    'detail': "This multi-tasking toner and cleansing water has quickly become a cult favorite. It creates a clean base for the next steps in your skincare and makeup routine. Originally created by master artists, Son & Park, Beauty Water lives up to its name.
+    'detail': "This son & park multi-tasking Beauty Water toner and cleansing water has quickly become a cult favorite. It creates a clean base for the next steps in your skincare and makeup routine. Originally created by master artists, Son & Park, Beauty Water lives up to its name.
     The Beauty Water is not just a cleanser but it mildly exfoliates with willow bark and papaya extract to help sweep away dead skin cells, revealing brighter skin tone and smoother texture. Lavender water, rose water, and orange fruit extract impart a subtle hydration so your skin can be prepped to absorb the next skin care steps, while adding in a bit of moisture. Beauty Water can be used in the morning to create the perfect canvas for makeup application, midday as a refresher, and night after cleansing to whisk away remaining impurities. For normal, oily, dry, and combination skin types. Beauty Water has a pH of 4.5, effectively resetting the skin's natural pH after cleansing.
     Paraben free.  
     11.49 oz / 340 ml",
@@ -141,31 +118,13 @@ products = [
     'skin_type': 'normal',
     'product_type': toner
   },
-  {
-    'brand': 'KLAIRS',
-    'name': 'Freshly Juiced Vitamin C Drop',
-    'short_description': 'Try Klairs vitamin C serum with antioxidants to protect against aging. Gentle enough for sensitive skin but can fade brown spots, brighten & firm skin.', 
-    'detail': "We're proud to introduce a new skin care serum that features 5% Vitamin C and is gentle enough for sensitive skin types! Vitamin C is an antioxidant that provides the best in anti-aging protection and is an effective brightening ingredient. The Klairs Freshly Juiced Drop helps:
-    This product has a pH level of 3.81
-    Fragrance-free.
-    If you love this product, check out the Freshly Juiced Vitamin E Mask from Klairs! 
-    1.18 oz / 35 ml",
-    'price': 23,
-    'link': '/collections/skincare/products/klairs-freshly-juiced-vitamin-c',
-    'special_link': '/collections/best-sellers/products/klairs-freshly-juiced-vitamin-c',
-    'brand_link': '/collections/klairs',
-    'ingredients': 'Water, Propylen Glycol, Ascorbic Acid , Hydroxyethylcellulose, Centella Asiatica Extract, Citrus Junos Fruit Extract , IlliciumVerum(Anise) Fruit Extract, Citrus Paradisi (Grapefruit) Fruit Extract, Nelumbium Speciosum Flower Extract, Paeonia Suffruticosa Root Extract , Scutellaria Baicalensis Root Extract, Polysorbate60, Brassica OleraceaItalica (Broccoli) Extract, Chaenomeles Sinensis Fruit Extract, Orange Oil Brazil, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Disodium EDTA, Lavandula Angustifolia (Lavender) Oil , Camellia SinensisCallus Culture Extract, LarixEuropaeaWood Extract, Chrysanthellum Indicum Extract, Rheum Palmatum Root Extract, Asarum Sieboldi Root Extract, Quercus Mongolia Leaf Extract, PersicariaHydropiperExtract, Corydalis Turtschaninovii Root Extract, Coptis Chinensis Root Extract, Magnolia Obovata Bark Extract, Lysine HCL, Proline, Sodium Ascorbyl Phosphate, Acetyl Methionine, Theanine, Lecithin, Acetyl Glutamine, SH-Olgopeptide-1, SH-Olgopeptide-2, SH-Polypeptide-1, SH-Polypeptide-9, SH-Polypeptide-11, Bacillus/Soybean/Folic Acid Ferment Extract, Sodium Hyaluronate, CaprylylGlycol , Butylene Glycol, 1,2-Hexanediol.',
-    'how_to_use': 'Apply to a clean face after cleansing and toner. Can apply as spot treatment or apply all over the face and neck. Finish off with moisturizer. For sensitive skin types, can add a drop and mix with moisturizer before application.Note: Because even top-of-the-line vitamin C products can degrade from sun exposure, make sure you keep yours away from sunlight to preserve the formula.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Klairs_Freshly_Juiced_Vitamin_C_Serum_PDP_low_860x.jpg?v=1573169182',
-    'skin_type': 'normal',
-    'product_type': serum_and_ampoule
-  },
+ 
   {
     'brand': 'COSRX',
     'name': 'Advanced Snail 96 Mucin Power Essence',
     'short_description': "The snail mucin essence replenishes skin's moisture & provides intense repair. Prevent new damage and deliver a youthful glow with skin products from Glow Up",
     'detail': "Featured in the Ipsy Glam Bag
-    If you're into snail mucin, this essence has a whopping 96% snail secretion filtrate for super intense repair and hydration. Think of this like vitamins for your face since it's loaded with replenishing and revitalizing nutrients to help prevent and repair damage, giving you ultimate elasticity and hydration.
+    If you're into snail mucin, this cosrx Advanced Snail 96 Mucin Power Essence essence has a whopping 96% snail secretion filtrate for super intense repair and hydration. Think of this like vitamins for your face since it's loaded with replenishing and revitalizing nutrients to help prevent and repair damage, giving you ultimate elasticity and hydration.
     Snail mucin has the ability to repair everything from dry patches, to acne breakouts while helping zap hyperpigmentation, so with loyal use your skin will glow to look its healthiest.
     Great for all skin types.
     This product has a pH level of 6.5
@@ -181,34 +140,12 @@ products = [
     'skin_type': 'normal',
     'product_type': essence
   },
-  {
-    'brand': 'BANILA CO',
-    'name': 'Clean It Zero Cleansing Balm Original',
-    'short_description': 'With papaya and acerola extract, try this award-winning oil cleanser to effortlessly dissolve stubborn makeup without stripping your own natural oils.', 
-    'detail': "**NEW Updated Formula!**
-    Your favorite classic oil cleanser just got upgraded -- on the outside and inside! And now available in two sizes.
-    This cult favorite still melts off stubborn makeup seamlessly without stripping your skin of its natural oils, it naturally exfoliates and brightens with vitamin C-rich acerola extract. But now, mineral oil has been replaced with natural ester oil, butylated hydroxytoluene is gone and skin-friendly vitamin E acetate is in its place (allowing this cleanser to be used on all skin types, even kids!), and butyl parahydroxybenzoate has been replaced with phenoxyethanol, an ingredient naturally derived from green tea to provide a fresh, rose scent.
-    Even more, the texture of the cleanser has been improved to be even smoother and softer with a higher melting point, meaning no more summer meltdowns!
-    The new packaging is perfect for your shelfie and the formula is even better for your skin! 
-    This product has a pH level of 6.1
-    Original size 3.38 oz / 100 ml",
-    'price': 19,
-    'link': '/collections/skincare/products/banila-co-clean-it-zero-classic',
-    'special_link': '/collections/best-sellers/products/banila-co-clean-it-zero-classic',
-    'brand_link': '/collections/banila-co',
-    'ingredients': 'Ethylhexyl Palmitate, Cetyl Ethylhexanoate, PEG-20 Glyceryl Triisostearate, PEG-10 Isostearate, Synthetic Wax, Onsen-Sui, Phenoxyethanol, Butylene Glycol, Lithospermum Erythrorhizon Root Extract, Tocopheryl Acetate, Fragrance, Ethylhexylglycerin, Water, 1,2-Hexanediol, Bambusa Vulgaris Leaf/Stem Extract Aspalathus Linearis Extract, Angelica Archangelica Root Extract, Malpighia Glabra (Acerola) Fruit Extract, Polydiethyleneglycol Adipate/IPDI Copolymer, Acrylates/Ammonium Methacrylate Copolymer, Acrylates/Methoxy PEG-15 Methacrylate Copolymer',
-    'how_to_use': 'Use spatula to scoop a small amount and massage balm over dry skin, concentrating on eye and lip makeup.
-    Add a splash of lukewarm water to emulsify into a milky texture.
-    Rinse with lukewarm water and pat dry.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Banila_Co_Clean_It_Zero_Cleansing_Balm_Original_PDP_1_low_860x.jpg?v=1573169772',
-    'skin_type': 'normal',
-    'product_type': oil_cleanser
-  },
+
   {
     'brand': 'NEOGEN',
     'name': 'Green Tea Real Fresh Foam Cleanser',
     'short_description': 'Try this innovative Korean foaming cleanser with fermented green tea extract to brighten & hydrate skin. Discover a cleanser gentle enough for all skin types.', 
-    'detail': "This unique foam cleanser is a must try for oily, combination, or acne-prone skin.
+    'detail': "This unique neogen Green Tea Real Fresh foam cleanser is a must try for oily, combination, or acne-prone skin.
     The start ingredient in this cleanser is fermented green tea extract, which brightens, calms, and hydrates skin. The gentle foam effectively removes impurities such as sweat and dirt from the skin without stripping your skin's natural oils.
     Lightweight and hydrating, this is the perfect water-based cleanser to use in your double-cleansing routine. 
     The pH of this product is 8.
@@ -223,53 +160,14 @@ products = [
     'skin_type': 'normal',
     'product_type': water_cleanser
   },
-  {
-    'brand': 'MISSHA',
-    'name': 'Time Revolution First Treatment Essence Intensive Moist',
-    'short_description': 'Intensive Moist by Missha now contains more fermented yeast. Try this water-like essence to hydrate, repair damaged skin, refine & even out your skin tone.', 
-    'detail': "Featured in the CUT!
-    Missha's best-selling essence has been upgraded to 'Intensive Moist,' now formulated with 90% fermented yeast, its superstar ingredient.
-    Fermented ingredients are at the heart of Korean skin care. This newly upgraded water-like essence is a cult favorite among skin care lovers because it's well-known to repair damage and even out skin tone in just a few weeks. This newly upgraded formula contains over 90% fermented yeast extract from Himalayan purple barley to effectively plump skin, refine texture, and reduce pigmentation -- even better than before! Ion fermentation process also ensures rapid absorption of moisture, allowing skin to retain moisture for longer and restoring skin elasticity. Niacinamide brightens and clarifies skin tone while adenosine energizes skin for more younger-looking skin. This essence will be your new holy grail!
-    This product has a pH level of 5.5
-    5.07 oz / 150 ml",
-    'price': 52,
-    'link': '/collections/skincare/products/missha-time-revolution-first-treatment-essence-intensive-moist',
-    'special_link': '/collections/best-sellers/products/missha-time-revolution-first-treatment-essence-intensive-moist',
-    'brand_link': '/collections/missha',
-    'ingredients': 'Saccharomyces Ferment Filtrate, Bifida Ferment Lysate, Water, Diethoxyethyl Succinate, Niacinamide, Hordeum Distichon (Barley) Extract, Phenoxyethanol, Dipropylene Glycol, Dimethicone, Glycerin, Polyquaternium-51, 1,2-Hexanediol, Adenosine, Lecithin, Potassium Sorbate, Cassia Alata Leaf Extract, Lactic Acid, Acetic Acid',
-    'how_to_use': 'After cleansing and toning, pour essence into hands and pat onto face and neck until fully absorbed. Follow with serum and moisturizer.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/PDP_-Missha-Time-Revolution-First-Treatment-Essence-Intensive-Moist_-PDP_1_860x.jpg?v=1571438542',
-    'skin_type': 'normal',
-    'product_type': essence
-  },
-  {
-    'brand': 'NEOGEN',
-    'name': 'Real Ferment Micro Essence',
-    'short_description': 'Try this essence treatment with Korean fermented ingredients, including birch juice & rice extracts. Leave your skin looking hydrated, brightened, glowing & supple.', 
-    'detail': "****NEW Improved packaging!**** Your favorite essence just got upgraded -- on the outside!
-    A deeply hydrating and brightening essence that contains more than 93% naturally fermented ingredients, including bifida ferment lysate and 28% saccharomyces ferment filtrate, to deliver instant moisture and skin-plumping benefits. 
-    This fragrance-free fermented treatment is also formulated with 17% birch juice to add hydration and 9% rice extracts to illuminate skin from within. Full of natural brighteners, antioxidants and cell-communicating ingredients, this essence is the key to glowing, supple 'honey skin'. To maximize results and benefits use with Micro Serum. 
-    This product has a pH level of ~5. 
-    150 ml /5.07 fl oz 
-    🍯What is 'honey skin'?🍯
-    Honey skin is essentially the next level glow after healthy skin. It’s a huge trend on social media, and is #goals as far as dewy and glowy complexions are concerned. Keep in mind that healthy, normal skin doesn’t mean you can’t see any pores and flawless. Healthy skin means balanced skin, and that can be hard to recognize since every person’s skin is a bit different.
-    Typically, honey skin entails using a routine with a lot of humectant and toning ingredients. You’re really going for the maximum glow factor.",
-    'price': 38,
-    'link': '/collections/skincare/products/neogen-real-ferment-micro-essence',
-    'special_link': '/collections/best-sellers/products/neogen-real-ferment-micro-essence',
-    'brand_link': '/collections/neogen',
-    'ingredients': 'Bifida Ferment Lysate, Saccharomyces Ferment Filtrate, Betula Alba Juice, Rice Ferment Filtrate (Sake), Aspergillus Ferment, Glycerin, Dipropylene Glycol, Methyl Gluceth-20, Water, Betaine, Camellia Sinensis Leaf Extract Ethylhexylglycerin, Trehalose, Lactobacillus, PEG-60 Hydrogenated Castor Oil, Caprylyl Glycol, Trideceth-10, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Tromethamine, 1,2-Hexanediol, Tropolone, Allantoin, Butylene Glycol, Coptis Japonica Extract, Arginine, Hydroxypropyl, Methylcellulose, Hydrogenated Lecithin, Calcium, Carbonate, Sodium Hyaluronate, Adenosine, Niacinamide, Dextrin, Glycine, Serine, Glutamic Acid, Aspartic Acid, Leucine, Alanine, Lysine, Tyrosine, Phenylalanine, Proline, Threonine, Valine, Isoleucine, Phenoxyethanol, Histidine, Methionine, Cysteine',
-    'how_to_use': 'Use this essence daily in the morning and evening after cleansing and toning. Sprinkle the essence into palms of hands or use a cotton pad to gently sweep across the face and neck, lightly patting your skin until the essence is fully absorbed.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Neogen_Real_Ferment_Micro_Essence_Repackage_PDP_860x.jpg?v=1571438576',
-    'skin_type': 'normal',
-    'product_type': essence
-  },
+ 
+ 
   {
     'brand': 'NEOGEN',
     'name': 'Bio-Peel Gauze Peeling Wine',
     'short_description': 'Replace traditional acid peels with these exfoliating pads with Resveratrol & lactic acid to deep clean pores. These single-use pads are quick and easy to use.',
     'detail': "As featured on Conde Nast 
-    This is the perfect exfoliator whether you prefer chemical or manual exfoliation. With 30 single-use exfoliating pads, this product provides gentle yet effective exfoliation of dead skin cells and impurities, leaving skin smoother and clear. Dead skin cells are sloughed off the surface of the skin using the unique 3 layer pad technology, as lactic acid penetrates deep into your pores to clean out pore-clogging debris.
+    This noegen Bio-Peel Gauze Peeling Wine is the perfect exfoliator whether you prefer chemical or manual exfoliation. With 30 single-use exfoliating pads, this product provides gentle yet effective exfoliation of dead skin cells and impurities, leaving skin smoother and clear. Dead skin cells are sloughed off the surface of the skin using the unique 3 layer pad technology, as lactic acid penetrates deep into your pores to clean out pore-clogging debris.
     Its star ingredient, Resveratrol, comes from red wine and is naturally fermented, with naturally occurring AHAs that also help with the exfoliation process. Resveratrol is a powerful antioxidant which helps prevent free radicals from pigmenting or forming wrinkles on your skin.
     30 single-use pads
     6.76 oz / 200 ml",
@@ -283,72 +181,13 @@ products = [
     'skin_type': 'normal',
     'product_type': physical_exfoliator
   },
-  {
-    'brand': 'MISSHA',
-    'name': 'Super Aqua Cell Renew Snail Cream',
-    'short_description': 'This K-Beauty favorite contains snail mucin extract to aid in healing & natural cell regeneration.',   
-    'detail': "Love this product? Find it in the Dynamic Duo: Moisture Boosters value set paired with the Hanskin’s Hyaluron Skin Essence!
-    This superhero repairing and hydrating cream contains 70% snail mucin extract as its star ingredient which supports natural cell regeneration and replenishes moisture to increase firmness in skin.
-    Snail mucin is hailed as an excellent healing and repairing agent, which benefits all skin types especially sensitive or acne-prone. Combined with its ability to impart tons of moisture and dewiness to the skin, this cream is a K-beauty favorite.
-    The light gel texture absorbs well while leaving a dewy finish and fresh scent. 
-    1.75 Fl. oz. / 52 ml
-    AS SEEN ON THE TODAY SHOW!",
-    'price': 50,
-    'link': '/collections/skincare/products/missha-super-aqua-cell-renew-snail-cream',
-    'special_link': '/collections/best-sellers/products/missha-super-aqua-cell-renew-snail-cream',
-    'brand_link': '/collections/missha',
-    'ingredients': 'Snail Secretion Filtrate, Dimethicone, Glycerin, Alcohol, Adansonia Digitata Seed Extract, Arbutin, Bis-PEG-18 Methyl Ether Dimethyl Silane, PEG-11 Methyl Ether Dimethicone, Sea Water, Ethylhexyl Isononanoate, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Portulaca Oleracea Extract, Carbomer, Triethanolamine, PEG-40 Hydrogenated Castor Oil, PPG-26-Buteth-26, Caprylyl Glycol, Fragrance, Ethylhexylglycerin, Tocopheryl Acetate, Adenosine, Disodium EDTA, Centella Asiatica Meristem Cell Culture, Xanthan Gum',
-    'how_to_use': 'After cleansing, toning and using treatment products, scoop out a dime-sized dollop with the spatula and smooth all over face and neck, patting in for ultimate absorption. Follow with SPF during the day or use it as your last skincare step at night.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Missha_Super_Aqua_Cell_Renew_Snail_Cream_Repackage_PDP_1_860x.jpg?v=1571438542',
-    'skin_type': 'normal',
-    'product_type': facial_moisturizer
-  },
-  {
-    'brand': 'BANILA CO',
-    'name': 'Clean It Zero Cleansing Balm Purifying',
-    'short_description': 'Try this classic oil cleanser to melt off stubborn makeup seamlessly without stripping your skin of its natural oils. Use it daily  to kep your skin soft & healthy.', 
-    'detail': "Your favorite classic oil cleanser just got upgraded -- on the outside and inside! 
-    This cult favorite still goes on as a soft balm and melts off stubborn makeup seamlessly without stripping your skin of its natural oils. An off-shoot from the popular Banila Co Clean It Zero Classic, this is a perfect first step in your double-cleanse. This award-winning hypoallergenic oil cleanser appears as a solid balm and transforms into a silky oil on the skin. 
-    This cleanser is still free from artificial coloring, alcohol, parabens, and mineral oil. It’s infused with seven natural ingredients, including centella asiatica extract and licorice root extract to help brighten skin. 
-    So what’s changed? The texture of the cleanser has been improved to be even smoother and softer with a higher melting point, meaning no more summer meltdowns! The new packaging is perfect for your shelfie and the formula is better for your skin!
-    This product has a pH level of 6.2
-    3.38 oz / 100ml",
-    'price': 24,
-    'link': '/collections/skincare/products/banila-co-clean-it-zero-purity',
-    'special_link': '/collections/skincare/products/banila-co-clean-it-zero-purity',
-    'brand_link': '/collections/banila-co',
-    'ingredients': 'Cetyl Ethylhexanoate Caprylic/Capric Triglyceride, PEG-20 Glyceryl Triisostearate, PEG-10 Isostearate, Synthetic Wax, Water, Phenoxyethanol, Butylene Glyco, Fragrance, Tocopheryl Acetate, Oenothera Biennis (Evening Primrose) Oil, Argania Spinosa Kernel Oil, Ethylhexylglycerin, Anthemis nobilis flower water, Glycerin, Centella Asiatica Extract, Epilobium Angustifolium Flower/Leaf/Stem Extract, Scutellaria Baicalensis Root Extract, Polygonum Cuspidatum Root Extract, Glycyrrhiza Glabra (Licorice) Root Extract, Camellia Sinensis Leaf Extract, 1,2-Hexanediol, Citric Acid, Rosmarinus Officinalis (Rosemary) Leaf Extract, Chamomilla Recutita (Matricaria) Flower Extract, Calendula Officinalis Flower Extract, Portulaca Oleracea Extract, Althaea Rosea Flower Extract, Aloe Barbadensis Leaf Extract, Sodium Benzoate Bambusa Vulgaris Leaf/Stem Extract, Aspalathus Linearis Extract, Angelica Archangelica Root Extract, Malpighia Glabra (Acerola) Fruit Extract, Potassium Sorbate, Sodium Metabisulfite, Zea Mays (Corn) Oil, Beta-Carotene, Polydiethyleneglycol Adipate/IPDI Copolymer, Acrylates/Ammonium Methacrylate Copolymer, Acrylates/Methoxy PEG-15 Methacrylate Copolymer, Tocopherol',
-    'how_to_use': 'Use spatula to scoop a small amount and massage balm over dry skin, concentrating on eye and lip makeup. Add a splash of lukewarm water to emulsify into a milky texture. Rinse with lukewarm water and pat dry.
-    Optional: follow with your water-based cleanser as the next step in your double-cleanse!',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/banila-co-clean-it-zero-purifying_860x.jpg?v=1571438543',
-    'skin_type': 'normal',
-    'product_type': oil_cleanser
-  },
-  {
-    'brand': 'SKINFOOD',
-    'name': 'Black Sugar Wash-Off Face Mask',
-    'short_description': "Gently massage skin, then wash away dull, dead skin cells with Skinfood's exfoliating scrub. Experience hydrating shea butter that leaves skin soft & glowing.",
-    'detail': "Featured in the Ipsy Glam Bag, the CUT!
-    This is a cult favorite product for a reason. Not only does this mask smell heavenly of brown sugar, it leaves skin feeling porcelain smooth.
-    The fine black sugar grains in the mask work as a superb manual exfoliator and slowly dissolve as you massage them onto your face with warm water. Thanks to hydrating shea butter and lanolin, you won't have to worry about that dry, tight feeling often associated with exfoliating scrubs. Instead, you'll discover soft and supple skin that's clearer than ever.
-    Free of parabens, alcohol, mineral oils, this product has a pH level of 5-5.6
-    3.5 oz / 103 ml",
-    'price': 10,
-    'link': '/collections/skincare/products/skinfood-black-sugar-mask-wash-off',
-    'special_link': '/collections/skincare/products/skinfood-black-sugar-mask-wash-off',
-    'brand_link': '/collections/skinfood',
-    'ingredients': 'Sucrose, Peg-7 Glyceryl Cocoate, Glycerin, Euphorbia Cerifera (Candelilla) Wax, Macadamia Ternifolia Seed Oil, Caprylic/Capric Triglyceride, Cetyl Ethylhexanoate, Lanolin, Stearalkonium Hectorite, Butyrospermum Parkii (Shea) Butter, Limnanthes Alba (Meadowfoam) Seed Oil, Caramel, Sorbitan Laurate, Tocopheryl Acetate, Ethylhexylglycerin, Water, Fragrance',
-    'how_to_use': 'Gently massage the mask onto a freshly washed, damp face, avoiding the eyes. Leave on for 10-15 minutes. We know it smells delicious, but try not to eat it. Rinse with lukewarm water. Recommended once a week.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Skinfood-Black-Sugar-Washoff-Mask_-PDP_1_860x.jpg?v=1571438542',
-    'skin_type': 'normal',
-    'product_type': wash_off_mask
-  },
+
   {
     'brand': 'COSRX',
     'name': 'Low-pH Good Morning Cleanser',
-    'short_description': 'A super gentle cleanser that’s great for your morning wash, this low pH formula gel cleanser doesn’t strip your skin of its natural oils and contains purifying botanical ingredients and mild acids to gently cleanse your skin to its most supple and clear texture.', 
-    'detail': "A super gentle cleanser that’s great for your morning wash, this low pH formula gel cleanser doesn’t strip your skin of its natural oils and contains purifying botanical ingredients and mild acids to gently cleanse your skin to its most supple and clear texture. It's also formulated to remove makeup and other oil-based residue with a skin-happy pH of 5!It’s great for sensitive and dry skin, but does the job no matter what your skin type.
-    Find out why we curated COSRX and read the official review!
+    'short_description': 'A super gentle cleanser that’s great for your morning wash, this Low-pH Good Morning Cleanser is a low pH formula gel cleanser doesn’t strip your skin of its natural oils and contains purifying botanical ingredients and mild acids to gently cleanse your skin to its most supple and clear texture.', 
+    'detail': "A super gentle cleanser that’s great for your morning wash, this COSRX low pH formula gel cleanser doesn’t strip your skin of its natural oils and contains purifying botanical ingredients and mild acids to gently cleanse your skin to its most supple and clear texture. It's also formulated to remove makeup and other oil-based residue with a skin-happy pH of 5!It’s great for sensitive and dry skin, but does the job no matter what your skin type.
+    Find out why we curated cosrx and read the official review!
     Fragrance-free.
     5.07 oz / 150 ml",
     'price': 12,
@@ -366,7 +205,7 @@ products = [
     'name': 'First Treatment Essence Mist',
     'short_description': "Missha's popular essence is now offered in a quick and easy-to-use facial mist. Just spray it on your skin to get the same nourishing ingredients you love.", 
     'detail': "'Enjoy the new look! Currently available in the 55 mL bottle'
-    Missha's hero product, the Time Revolution First Treatment Essence is now available in this convenient mist, making it a breeze to apply. This multi-functional mist contains fermented yeast extract that delivers vitamins, amino acids, and minerals to refresh, renew, and rejuvenate the outer layer of the skin.",
+    Missha's hero product, the Time Revolution First Treatment Essence is now available in this MISSHA First Treatment Essence Mist convenient mist, making it a breeze to apply. This multi-functional mist contains fermented yeast extract that delivers vitamins, amino acids, and minerals to refresh, renew, and rejuvenate the outer layer of the skin.",
     'price': 26,
     'link': '/collections/skincare/products/missha-time-revolution-first-treatment-essence-mist',
     'special_link': '/collections/skincare/products/missha-time-revolution-first-treatment-essence-mist',
@@ -384,7 +223,7 @@ products = [
     'detail': "Featured in the Ipsy Glam Bag
     Prep your skin with this refreshing vegan toner that removes excess dirt and sebum while restoring pH balance. Amino acids reduce irritation and provide deep hydration. Toner is the essential first step in any moisturizing regimen. It preps your skin to absorb the next step in your skincare regimen: essence.
     Suitable for all skin types.
-    This product has a pH level of 5
+    This klaris Supple Preparation Facial Toner has a pH level of 5
     6.08 oz / 180 ml",
     'price': 22,
     'link': '/collections/skincare/products/klairs-supple-preparation-facial-toner-180ml',
@@ -396,65 +235,14 @@ products = [
     'skin_type': 'normal',
     'product_type': toner
   },
-  {
-    'brand': 'NEOGEN',
-    'name': 'Real Fresh Green Tea Cleansing Stick',
-    'short_description': 'This travel-friendly, all-in-one cleansing stick easily washes away makeup & gently exfoliates skin. Try this low-pH cleanser that leaves skin clear & bright.', 
-    'detail': "Featured in BuzzFeed
-    Winner of the 2017 Teen Vogue Acne Awards and deemed 'one of the coolest creations to come out of Korea,' the Real Fresh Green Tea Cleansing Stick is a travel-friendly, all-in-one cleanser. Formulated with 13 natural oils to breakdown makeup, natural green tea leaves to exfoliate and a low pH to gently cleanse your skin, this cleanser will lead the way to brighter, clearer skin.
-    2.28 oz / 80g",
-    'price': 22,
-    'link': '/collections/skincare/products/neogen-real-fresh-cleansing-stick-green-tea',
-    'special_link': '/collections/best-sellers/products/neogen-real-fresh-cleansing-stick-green-tea',
-    'brand_link': '/collections/neogen',
-    'ingredients': 'Glycerin, Water, Cocos Nucifera (Coconut) Oil, Palmitic Acid, Stearic Acid, Lauryl Betaine, Betaine,Camellia Sinensis Leaf(0.3%), Camellia Sinensis Seed Oil(0.1%), Camellia Japonica Seed Oil, OleaEuropaea (Olive) Fruit Oil, Helianthus Annuus (Sunflower) Seed Oil, Limnanthes Alba (Meadowfoam)Seed Oil, Oenothera Biennis (Evening Primrose) Oil, Citrus Aurantifolia (Lime) Oil, Ocimum Basilicum(Basil) Oil, Cananga Odorata Flower Oil, Citrus Limon (Lemon) Peel Oil, Origanum Majorana Leaf Oil,Citrus Aurantium Dulcis (Orange) Peel Oil, Tocopheryl Acetate, Sodium Chloride, Fragrance',
-    'how_to_use': 'Twist up the cleanser by turning the bottom of the tube to reveal enough product.- Swipe over damp skin and then massage with your hands to lather. Rinse with lukewarm to cool water.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Neogen_Real_Fresh_Green_Tea_Cleansing_Stick_PDP_1_low_860x.jpg?v=1573168484',
-    'skin_type': 'normal',
-    'product_type': water_cleanser
-  },
-  {
-    'brand': 'NEOGEN',
-    'name': 'Day-Light Protection Sun Screen SPF 50/PA+++',
-    'short_description': "This Neogen light sunscreen is heavy on all-day sun protection. Give your skin's hydration a boost without feeling greasy. Apply alone or under makeup.",
-    'detail': "This lightweight fluid-like sunscreen offers major protection with broad-spectrum SPF 50 PA +++.
-    It offers light but nourishing hydration from rose and raspberry extracts, so those with dry skin can get an extra boost of hydration after layering over moisturizer and normal to oily skin can use this as a moisturizer with sun protection. It protects all day and wears well under makeup, leaving zero white cast or greasy feeling on your skin.
-    1.69 oz / 50 ml",
-    'price': 30,
-    'link': '/collections/skincare/products/neogen-day-light-sun-protection-sun-screen',
-    'special_link': '/collections/best-sellers/products/neogen-day-light-sun-protection-sun-screen',
-    'brand_link': '/collections/neogen',
-    'ingredients': 'Water, Ethylhexyl Methoxycinnamate, Glycerin, Butylene Glycol, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Zinc Oxide, C12-15 Alkyl Benzoate, Hexanediol, Isoamyl P-Methoxycinnamate, Dicaprylyl Carbonate, Titanium Dioxide, Cetearyl Alcohol, Xanthan Gum, Polysorbate 20, Sodium Hyaluronate, Glyceryl Stearate, Peg-100 Stearate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Portulaca Oleracea Extract, Lavandula Angustifolia (Lavender) Oil, Phyllanthus Emblica Fruit Extract, Rubus Idaeus(Raspberry) Fruit Extract, Vaccinium Angustifolium (Blueberry) Fruit Extract, Euterpe Oleracea Fruit Extract, Ammonium Acryloyldimethyltaurate/Vp Copolymer, Carbomer, Lippia Citriodora Leaf Extract, Rosa Damascena Flower Extract, Tocopheryl Acetate, Angelica Archangelica Root Extract, Beta-Glucan, Hibiscus Sabdariffa Flower Extract, Artemisia Absinthium Extract, Arnica Montana Flower Extract, Polyhydroxystearic Acid, Alumina, Gentiana Lutea Root Extract, Achillea Millefolium Extract, Litsea Cubeba Fruit Oil, Citrus Limon (Lemon) Fruit Oil, Eucalyptus Globulus Leaf Oil, Cedrus Atlantica Wood Oil, Disodium Edta, Potassium Hydroxide, Citrus Aurantium Dulcis(Orange) Oil, Aluminum Stearate.',
-    'how_to_use': 'Use the NEOGEN Day-Light Sun Protection Sun Screen as the last step in your morning skin care routine. Squeeze a dime-sized amount into hand and massage into face and neck, avoiding eyes. Reapply throughout the day during prolonged sun exposure as needed.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Neogen_Day-Light_Protection_Sun_Screen_PDP_1_low_860x.jpg?v=1573169504',
-    'skin_type': 'normal',
-    'product_type': sunscreen
-  },
-  {
-    'brand': 'THE PLANT BASE',
-    'name': 'Time Stop Collagen Ampoule',
-    'short_description': 'This ampoule is formulated with 76.52% mushroom extract to stimulate collagen production and reduce the appearance of wrinkles.',
-    'detail': "Love this product? Find it in the Dynamic Duo: Fine Line Fighters value set paired with the Dewytree Ultra Vitalizing Snail Essence Water!
-    This ampoule is formulated with 76.52% mushroom extract to stimulate collagen production and reduce the appearance of wrinkles.
-    Panthenol, sodium hyaluronate, and macadamia seed oil combine to intensely hydrate skin, while aloe and Centella soothe irritation and redness. This special formula also contains a patented ingredient that is a blend of licorice, persimmon leaf, and other botanical extracts rich in antioxidants, to brighten, soothe and strengthen skin. Lastly, the addition of adenosine and beta-glucans give you smoother, firmer skin. 
-    Free of potential irritants like parabens, artificial fragrance, and mineral oil, this ampoule has a pH of 6.56.
-    0.68 fl oz / 20 ml",
-    'price': 29,
-    'link': '/collections/skincare/products/the-plant-base-time-stop-collagen-ampoule',
-    'special_link': '/collections/best-sellers/products/the-plant-base-time-stop-collagen-ampoule',
-    'brand_link': '/collections/the-plant-base',
-    'ingredients': 'Hericium Erinaceum (Mushroom) Extract(76.53%), Butylene Glycol, 1,2-Hexanediol, Water, Glycerin, Tremella Fuciformis (Mushroom) Extract(180 mg), Sodium Hyaluronate, Sodium Polyacrylate, PPG-26-Buteth-26, Morus Alba Bark Extract, Opuntia Coccinellifera Fruit Extract, Glycyrrhiza Glabra (Licorice) Root Extract, Diospyros Kaki Leaf Extract, Polyacrylamide, PEG-40 Hydrogenated Castor Oil, Tromethamine, Carbomer, Allantoin, Acetyl Glutamine, Panthenol, C13-14 Isoparafin, Dextrin, Ethylhexylglycerin, Adenosine, Caramel, Disodium EDTA, Laureth-7, Beta-Glucan, Aloe Barbadensis Leaf Extract, Ethyl Hexanediol, Centella Asiatica Extract, Macadamia Integrifolia Seed Oil, Retinyl Palmitate, Palmitoyl Tripeptide-5, Pantolactone, Terminalia Ferdinandiana Fruit Extract, Hydrogenated Lecithin, PEG-5 Rapeseed Sterol, Cholesterol, Brassica Campestris (Rapeseed) Sterols, Ceteth-5, Ceteth-3, Tocopheryl Acetate, Silica, Sodium Ascorbyl Phosphate, Sodium Stearoyl Glutamate',
-    'how_to_use': 'Use morning and night. Use it alone in the ampoule step or mix with other products like your moisturizer to amp up the effects.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/The_Plant_Base_Time_Stop_Collagen_Ampoule_PDP_low_860x.jpg?v=1573167776',
-    'skin_type': 'normal',
-    'product_type': serum_and_ampoule
-  },
+
+ 
   {
     'brand': 'NEOGEN',
     'name': 'Bio-Peel Gauze Peeling Lemon',
     'short_description': 'Replace traditional acid peels with single use exfoliating pads. Experience rich and poweful ingredients, including lemon & lactic acid to deep clean pores.', 
     'detail': "Reap the benefits of physical and chemical exfoliation in one gentle yet hard-working product. 
-    These 30 single-use exfoliating pads use a powerful combination of chemical exfoliants—including lactic acid, glycolic acid, and lemon, orange, and papaya extracts—to clear clogged pores while simultaneously harnessing the power of vitamin C to help fade acne scars. Dead skin cells are also physically sloughed off through the unique 3 layer pad technology that reveals a bright, fresh layer of skin.
+    These neogen bio-peel gauze peeling lemon come with 30 single-use exfoliating pads use a powerful combination of chemical exfoliants—including lactic acid, glycolic acid, and lemon, orange, and papaya extracts—to clear clogged pores while simultaneously harnessing the power of vitamin C to help fade acne scars. Dead skin cells are also physically sloughed off through the unique 3 layer pad technology that reveals a bright, fresh layer of skin.
     30 single-use pads6.76 oz / 200 ml",
     'price': 27,
     'link': '/collections/skincare/products/neogen-bio-peel-gauze-peeling-lemon',
@@ -470,7 +258,7 @@ products = [
     'brand': 'BENTON',
     'name': 'Aloe BHA Skin Toner',
     'short_description': 'Perfect for all skin types, this toner is packed full of hydrating ingredients. Use it as part of your daily skin care routine to help absorb products.', 
-    'detail': "Packed with skin-benefitting ingredients such as aloe and salicylic acid, this toner hydrates and preps your skin to help with the absorption of skincare products in the next step in your routine.
+    'detail': "Packed with skin-benefitting ingredients such as aloe and salicylic acid, this benton aloe BHA skin toner hydrates and preps your skin to help with the absorption of skincare products in the next step in your routine.
     Aloe: Soothes, moisturizesSalicylic Acid: Exfoliates, helps reduce sebum, and contains anti-inflammatory properties. Snail Mucin: Brings back moisture to skin. For all skin types.
     200 ml",
     'price': 19,
@@ -488,7 +276,7 @@ products = [
     'name': 'H2 Dermadeca Serum Spray',
     'short_description': 'Try this serum mist from Negoen that is fortified with key ingredients to brighten skin, fight signs of aging, calm inflammation, and more.',
     'detail': "Featured on the Strategist!  
-    Neogen has created a very fine serum mist that hydrates and repairs skin in a flash. The serum spray formula is fortified with key ingredients like niacinamide and vitamin C that brighten the skin and fight aging signs, Centella Asiatica extract that calms inflammation and stimulates new cell growth, and collagen that plumps up your skin.
+    neogen has created a very fine serum mist that hydrates and repairs skin in a flash. The NEOGEN H2 dermadeca serum spray formula is fortified with key ingredients like niacinamide and vitamin C that brighten the skin and fight aging signs, Centella Asiatica extract that calms inflammation and stimulates new cell growth, and collagen that plumps up your skin.
     4.06 oz / 120 ml",
     'price': 19,
     'link': '/collections/skincare/products/neogen-h2-dermadeca-serum-spray',
@@ -504,7 +292,7 @@ products = [
     'brand': 'BENTON',
     'name': 'Aloe Propolis Soothing Gel',
     'short_description': 'Aloe propolis soothing gel deeply hydrates all skin types. The propolis offer anti-bacterial & anti-inflammatory properties. Perfect to use for acne prone skin.', 
-    'detail': "All thriller, no filler! This product contains aloe and propolis that help soothe irritated skin, fade acne scars, brighten skin tone, and even maintain hydration throughout the day. This gel moisturizer is also fragrance free!
+    'detail': "All thriller, no filler! This benton aloe propolis soothing gel contains aloe and propolis that help soothe irritated skin, fade acne scars, brighten skin tone, and even maintain hydration throughout the day. This gel moisturizer is also fragrance free!
     For all skin types, especially oily or congested skin.
     This product has a pH level of 6.5-7.5
     **Color of product may vary by batch according to seasonal propolis extraction
@@ -524,7 +312,7 @@ products = [
     'name': 'Egg White Pore Foam',
     'short_description': 'Try this mild pore cleansing foam is perfect for combination or oily skin types. The egg whites purify & deep clean pores, great for daily use.', 
     'detail': "Featured in the Ipsy Glam Bag
-    A gentle foaming cleanser suitable for those with combination and oily skin types. This new product from Skinfood contains pore-purifying, amino acid-rich egg whites with deep cleansing properties. The Egg White Foam Cleanse is mild enough for daily use and will not strip away any beneficial natural oils.
+    A gentle foaming cleanser suitable for those with combination and oily skin types. This skinfood egg white pore foam contains pore-purifying, amino acid-rich egg whites with deep cleansing properties. The Egg White Foam Cleanse is mild enough for daily use and will not strip away any beneficial natural oils.
     This product has a pH level of 8-95.07 oz / 150 ml",
     'price': 11,
     'link': '/collections/skincare/products/skinfood-egg-white-pore-foam',
@@ -541,7 +329,7 @@ products = [
     'name': 'Real Vita C Powder Lemon',
     'short_description': 'Try this DIY vita C powder to offer all the brightening benefits of a vitamin C serum. With ascorbic acid & allantoin, it revitalize dull, tired skin & hydrate for radiant & glowing complexion.', 
     'detail': "Love this product? Find it in the Dynamic Duo: Dark Spot Faders value set paired with the Son Reve Tri-Bio Treatment Essence!
-    This innovative, DIY powder, offers all the brightening benefits of a powerful vitamin C serum, but without the chance of oxidation. 
+    This noogen real vita c powder lemon is so innovative, DIY powder, offers all the brightening benefits of a powerful vitamin C serum, but without the chance of oxidation. 
     The miracle solution contains 17% ascorbic acid (pure vitamin C), along with ingredients like allantoin, hydrolyzed collagen, trehalose, and lemon extract to hydrate and revitalize dull, tired skin for a more even, radiant and glowing complexion. The gentle, travel-friendly powder can be used on all skin types, even those with sensitive or oily skin. The formula is free of alcohol, silicone, paraben, artificial fragrance, surfactants and mineral oil.Tip: Mix it with your favorite toner or watery essence for best results. To avoid irritation, we do not recommend mixing it with products like AHAs, BHAs, retinol, or products that already contain vitamin C. Learn more here.  
      20 g/ 0.70 fl.oz.",
     'price': 20,
@@ -554,33 +342,12 @@ products = [
     'skin_type': 'normal',
     'product_type': serum_and_ampoule
   },
-  {
-    'brand': 'NEOGEN',
-    'name': 'Real Ferment Micro Serum',
-    'short_description': "Try this serum that's packed with Korean fermented ingredients to nourish, improve elasticity & brighten complexion.", 
-    'detail': "A follow-up to the intensely hydrating Neogen Dermalogy Micro Essence, the micro serum delivers a concentrated boost of nutrients and antioxidants to skin.
-    With a formula that includes 61% fermented ingredients, this gel-like serum instantly absorbs into skin and infuses it with elasticity-improving bifida ferment lysate and saccharomyces ferment filtrate.
-    The addition of betula alba juice provides antioxidant benefits while rice ferment filtrate brightens complexion and balances oil production.
-    Achieve brighter, smoother, and stronger 'honey skin' with this hard-working serum. To maximize results and benefits use with Micro Essence. 
-    This product is free of parabens, mineral oils, and artificial fragrances. pH level of 6.3 ± 130 ml / 1.01 fl. oz. 
-    🍯What is 'honey skin'?🍯
-    Honey skin is essentially the next level glow after healthy skin. It’s a huge trend on social media, and is #goals as far as dewy and glowy complexions are concerned. Keep in mind that healthy, normal skin doesn’t mean you can’t see any pores and flawless. Healthy skin means balanced skin, and that can be hard to recognize since every person’s skin is a bit different.
-    Typically, honey skin entails using a routine with a lot of humectant and toning ingredients. You’re really going for the maximum glow factor.",
-    'price': 38,
-    'link': '/collections/skincare/products/neogendermalogy-real-ferment-micro-serum',
-    'special_link': '/collections/best-sellers/products/neogendermalogy-real-ferment-micro-serum',
-    'brand_link': '/collections/neogen',
-    'ingredients': 'Bifida Ferment Lysate, Saccharomyces Ferment Filtrate, Betula Alba Juice, Butylene Glycol, Rice Ferment Filtrate (Sake), Glycerin, Cetyl Ethylhexanoate, Caprylic/Capric Triglyceride, Aspergillus Ferment, Dimethicone, Cyclopentasiloxane, Niacinamide, Cyclohexasiloxane, Polyacrylate-13, Water, Panthenol, Dimethicone/Vinyl Dimethicone Crosspolymer, Polyisobutene, PEG-7 Glyceryl Cocoate, Camellia Sinensis Leaf Extract, Cetearyl Olivate, Sorbitan Olivate, Ethylhexylglycerin, Polysorbate 20, Sorbitan Isostearate, Lactobacillus, Xanthan Gum, Sodium Polyacrylate, Caprylyl Glycol, Adenosine, Sodium Hyaluronate, Tropolone, Centella Asiatica Extract, Pichia/Resveratrol Ferment Extract, 1,2-Hexanediol, Hydrolyzed Collagen, Glutathione, Ascorbic Acid, Ubiquinone, Thioctic Acid, Tocopherol, Phenoxyethanol, Disodium EDTA',
-    'how_to_use': 'After cleansing and toning, apply this serum after your essence when your skin is still damp. Pump a pea-sized amount of the serum onto clean fingers and smooth over skin, gently patting to help absorption.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Neogen_Micro_Serum_PDPArtboard_1_860x.jpg?v=1571438583',
-    'skin_type': 'normal',
-    'product_type': serum_and_ampoule
-  },
+ 
   {
     'brand': 'COSRX',
     'name': 'Oil-Free Ultra Moisturizing Lotion',
-    'short_description': 'This cream was developed to be a perfect complement to Cosrx’s famous AHA and BHA products. Calm and treat sensitive, irritated, or freshly exfoliated skin.',
-    'detail': "This cream was developed to be a perfect complement to COSRX’s famous AHA and BHA products. It contains 70% Birch sap, a powerhouse ingredient for calming and treating sensitive, irritated, or freshly exfoliated skin. If you’ve ever experienced dryness due to acne medication, winter weather, or natural sensitivity, this is the cream for you. It quenches dry skin with zero greasy residue and calms acne-prone skin without causing breakouts. Win-win.
+    'short_description': 'This COSRX Oil-Free Ultra Moisturizing Lotion cream was developed to be a perfect complement to Cosrx’s famous AHA and BHA products. Calm and treat sensitive, irritated, or freshly exfoliated skin.',
+    'detail': "This cream was developed to be a perfect complement to cosrx famous AHA and BHA products. It contains 70% Birch sap, a powerhouse ingredient for calming and treating sensitive, irritated, or freshly exfoliated skin. If you’ve ever experienced dryness due to acne medication, winter weather, or natural sensitivity, this is the cream for you. It quenches dry skin with zero greasy residue and calms acne-prone skin without causing breakouts. Win-win.
     This product has a pH level of 5.5
     3.38 oz / 100 ml",
     'price': 22,
@@ -593,47 +360,13 @@ products = [
     'skin_type': 'normal',
     'product_type': facial_moisturizer
   },
-  {
-    'brand': 'HANSKIN',
-    'name': 'Hyaluron Skin Essence',
-    'short_description': "Korean skincare focuses on essences for hydration. Try this Hanskin essence formula, which is absorbed faster & goes deeper to dramatically boost skin's moisture.", 
-    'detail': "Love this product? Find it in the Dynamic Duo: Moisture Boosters value set paired with the Missha Super Aqua Cell Renewal Snail Cream!
-    This is an essence dry skin will actually drink up!Why? Because the special formula contains an advanced form of hyaluronic acid called sodium hyaluronate that's comprised of smaller molecules, allowing it to hold 1,000 times more moisture than water. This essence sinks fast into skin and deeply infuses it with hydration.The result? Insanely moisturized skin that looks plump, supple, and happier.
-    Fragrance-free. According to EWG cosmetic database, this essence has a very 'safe' EWG rating (score: 1). 
-    5.07 fl. oz. / 150 ml",
-    'price': 25,
-    'link': '/collections/skincare/products/hanskin-hyaluron-skin-essence',
-    'special_link': '/collections/best-sellers/products/hanskin-hyaluron-skin-essence',
-    'brand_link': '/collections/hanskin',
-    'ingredients': 'Glycerin, Water, Butylene Glycol, Pentylene Glycol, Linum Usitatissimum (Linseed) Seed Extract, Hydrolyzed Collagen, Rhus Semialata Gall Extract, Gynostemma Pentaphyllum Leaf/Stem Extract, Zostera Marina Extract, 1,2-Hexanediol, Sodium Hyaluronate, Hydroxyethylcellulose, Citric Acid, Sodium Citrate, Hydrolyzed Hyaluronic Acid, Saccharide Isomerate, Hydrolyzed Algin, Disodium EDTA, Phenoxyethanol',
-    'how_to_use': 'After double cleansing morning and night, pour a few drops of the essence on your palms or a cotton pad and pat into skin.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/New-Variation_-Hanskin-Hyaluron-skin-essence-_150ml_PDP_low_bb554817-37af-4b8e-a565-db7b433a619e_860x.jpg?v=1574435408',
-    'skin_type': 'normal',
-    'product_type': essence
-  },
-  {
-    'brand': 'KLAIRS',
-    'name': 'Midnight Blue Calming Cream',
-    'short_description': 'This gentle cream is great for acne-prone or extremely oily skin. Use it to calm skin redness & relieve irritations like sunburn or post-shaving rash.', 
-    'detail': "This gentle cream helps to calm extremely irritated, stressed skin. For oily, acne-prone and sensitive skin types, this cream can also be used to calm sunburnt skin, post-shaving redness and irritation after spot extraction and laser procedures.
-    The star ingredient in this cream is Guaiazulene, a powerful skin-calming agent extracted from camomile oil. It's what gives the cream its beautiful blue color. Added to this is Centella, which hydrates skin and relieves irritation and redness. Perfect for daily use, this cream is what you need to keep redness at bay. 
-    This product has a pH level of 7.11
-    1.01 oz / 30 ml",
-    'price': 24.50,
-    'link': '/collections/skincare/products/klairs-midnight-blue-calming-cream',
-    'special_link': '/collections/best-sellers/products/klairs-midnight-blue-calming-cream',
-    'brand_link': '/collections/klairs',
-    'ingredients': 'Water, Cetyl Ethylhexanoate, Butylene Glycol, Glycerin, Sodium Hyaluronate, Caprylic/Capric Triglyceride, Centella Asiatica Extract, Sorbitan Stearate, Cetyl Alcohol, Butyrospermum Parkii (Shea Butter), Argania Spinosa Kernel Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Sorbitan Sesquioleate, Glyceryl Stearate, Stearic Acid, Portulaca Oleracea Extract, Anthemis Nobilis Flower Extract, Ceramide NP, Polysorbate 60, Bees Wax, Chlorphenesin, Tocopheryl Acetate, Xanthan Gum, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Morus Alba Root Extract, Tromethamine, Brassica Oleracea Italica (Broccoli) Extract, Guaiazulene, Acetyl Hexapeptide-8, Lecithin, Acetyl Glutamine, SH-Olgopeptide-1, SH-Olgopeptide-2, SH-Polypeptide-1, SH-Polypeptide-9, SH-Polypeptide-11, Bacillus/Soybean/Folic Acid Ferment Extract, Caprylyl Glycol, 1,2-Hexanediol',
-    'how_to_use': 'After cleansing, toning and using treatment products, dispense the cream into the palm of the hand. Smooth or pat over skin, until fully absorbed. Follow with SPF during the day or use it as your last skincare step at night.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Klairs_Midnight_Blue_Calming_Cream_PDP_1_low_860x.jpg?v=1573169457',
-    'skin_type': 'normal',
-    'product_type': facial_moisturizer
-  },
+ 
+
   {
     'brand': 'DR ORACLE',
     'name': 'A-Thera Tea Tree Peeling Sticks',
     'short_description': 'This innovative peeling stick is shaped like a huge cotton swab, containing Lactic acid which gently lifts dead skin cells while glycolic acid works to exfoliate and resurface the skin, smoothing bumpy skin texture.',
-    'detail': "This targeted spot treatment uses AHA and BHA, powerful acne-fighting acids, to effectively clear pores and blackheads.
+    'detail': "This dr oracle A-Thera Tea Tree Peeling Sticks is targeted spot treatment uses AHA and BHA, powerful acne-fighting acids, to effectively clear pores and blackheads.
     This innovative peeling stick is shaped like a huge cotton swab, allowing for precise application to get into the nooks and crannies. Lactic acid gently lifts dead skin cells while glycolic acid works to exfoliate and resurface the skin, smoothing bumpy skin texture.
     A blend of tea tree extract, lemon extract, and bamboo extract works to naturally exfoliate without irritating skin. Blemishes will disappear faster and skin will look calmer after using these peeling sticks!
     pH level of 3.50 ± 0.50
@@ -652,7 +385,7 @@ products = [
     'brand': 'ETUDE HOUSE',
     'name': 'My Beauty Tool Lovely Etti Hair Band',
     'short_description': "Use this adorable kitty headband to keep your hair out of your face during your skincare routine. It's so comfy & cute, get one for you & a friend.",
-    'detail': "Do your skincare routine in style and comfort! With this adorable, plush cat headband from Etude House, you can keep unwanted hair from your face while cleansing and applying your skincare products. 
+    'detail': "Do your skincare routine in style and comfort! With this etude house my beauty tool lovely etti Hair Band is adorable, plush cat headband from Etude House, you can keep unwanted hair from your face while cleansing and applying your skincare products. 
     100% Polyester",
     'price': 5,
     'link': '/collections/skincare/products/etude-house-my-beauty-tool-lovely-etti-hair-band',
@@ -667,7 +400,7 @@ products = [
     'brand': 'MISSHA',
     'name': 'Perfect Cover BB Cream SPF 42 PA+++',
     'short_description': 'This Missha bb cream for medium coverage hides flaws, protects from sun damage & evens out skin tone.',
-    'detail': "Introducing one of the most popular BB creams on the South Korean beauty scene! The Perfect Cover BB Cream from Missha offers medium coverage that disguises blemishes, evens out skin tone, protects from sun damage (SPF 42 PA+++), and even provides anti-aging and brightening effects. Perfect for those on the go -- this multi-purpose BB cream makes your life (and your makeup bag) a whole lot simpler.",
+    'detail': "Introducing one of the most popular BB creams on the South Korean beauty scene! The Perfect Cover BB Cream from Missha offers medium coverage that disguises blemishes, evens out skin tone, protects from sun damage (SPF 42 PA+++), and even provides anti-aging and brightening effects. Perfect for those on the go -- this MISSHA multi-purpose BB cream makes your life (and your makeup bag) a whole lot simpler.",
     'price': 22,
     'link': '/collections/skincare/products/missha-perfect-cover-bb-cream-spf-42-pa-1',
     'special_link': '/collections/skincare/products/missha-perfect-cover-bb-cream-spf-42-pa-1',
@@ -678,28 +411,13 @@ products = [
     'skin_type': 'normal',
     'product_type': makeup_and_spf
   },
-  {
-    'brand': 'ETUDE HOUSE',
-    'name': 'Moistfull Collagen Emulsion',
-    'short_description': "Don't be fooled by the light texture of Etude House Moistfull Collagen Emulsion. Try its collagen and baobab water formula to keep skin elastic and hydrated.",
-    'detail': "The small particles of the super collagen water and Baobab water in the Moistfull Collagen Emulsion, endlessly provide moisture and leave your skin feeling bouncy like jelly. Moistfull Collagen Emulsion has a light but firm texture that adheres moisture and nutrients to the skin.
-    6.09 oz / 180 ml",
-    'price': 15,
-    'link': '/collections/skincare/products/etude-house-moistfull-collagen-emulsion',
-    'special_link': '/collections/skincare/products/etude-house-moistfull-collagen-emulsion',
-    'brand_link': '/collections/etude',
-    'ingredients': 'Water, Hydrolyzed Collagen, Butylene Glycol, Adansonia Digitata Fruit Extract, Glycerin, Pentaerythrityl Tetraethylhexanoate, Cyclopentasiloxane, Hydrogenated Poly(C6-14 Olefin), Polysorbate 60, Cyclohexasiloxane, Adansonia Digitata Seed Oil, Hydrogenated Vegetable Oil, Glyceryl Stearate, Dimethiconol, Cetearyl Alcohol, Sorbitan Stearate, Ammonium Acryloyldimethyltaurate/Vp Copolymer, Ethylhexylglycerin, Alcohol, Carbomer, Tromethamine, Poloxamer 407, Peg-100 Stearate, Phytantriol, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Phenoxyethanol, Disodium Edta, Fragrance',
-    'how_to_use': 'After cleansing, toning and using treatment products, dispense the emulsion into the palm of the hand. Smooth or pat over skin, until fully absorbed. Follow with SPF during the day or use it as your last skincare step at night.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/DSC01517_860x.jpg?v=1571438555',
-    'skin_type': 'normal',
-    'product_type': facial_moisturizer
-  },
+ 
   {
     'brand': 'BENTON',
     'name': 'Snail Bee High Content Mask',
     'short_description': 'A pure cotton sheet mask soaked in snail mucin & bee venom delivers hydration & improves skin tone & texture. Great for acne-prone skin. Single-use.',
     'detail': "As featured on The Strategist 
-    This sheet mask is made of pure cotton and is soaked in snail mucin to deeply nourish and hydrate irritated skin. Bee venom extract helps improves skin tone and texture.
+    This benton snail bee high content sheet mask is made of pure cotton and is soaked in snail mucin to deeply nourish and hydrate irritated skin. Bee venom extract helps improves skin tone and texture.
     Recommended for all skin types, especially acne-prone skin.
     Includes 1 single use sheet mask.
     This product has a pH level of 6.5-7.5
@@ -718,7 +436,7 @@ products = [
     'brand': 'MISSHA',
     'name': 'Speedy Solution Anti Trouble Patch',
     'short_description': "Try Missha's ingenious clear patch acne treatments made with anti-inflammatory ingredients to reduce redness and speed up the recovery process.", 
-    'detail': "This is your Band-Aid for zits. Missha's ingenious clear patch acne treatments cut the lifeline of pimples. The anti-inflammatory ingredients (salicylic acid and tea tree oil) reduce redness and speed up the recovery process. The patches also protect from bacteria and fidgety fingers.
+    'detail': "This missha speedy solution anti trouble patch is your Band-Aid for zits. Missha's ingenious clear patch acne treatments cut the lifeline of pimples. The anti-inflammatory ingredients (salicylic acid and tea tree oil) reduce redness and speed up the recovery process. The patches also protect from bacteria and fidgety fingers.
     One package includes 96 clear circular patches in a variety of sizes.",
     'price': 7,
     'link': '/collections/skincare/products/missha-speedy-solution-anti-trouble-patch',
@@ -733,9 +451,9 @@ products = [
   {
     'brand': 'NEOGEN',
     'name': 'Bio-Peel Gauze Peeling Green Tea',
-    'short_description': 'These green tea exfoliating pads prevent signs of aging & soothe irritated skin. Experience 3 layer pad technology to remove dead skin cells & impurities.',
-    'detail': "You love the Neogen Bio-Peel Gauze Peeling Wine, now try it in Green Tea!
-    With 30 single-use exfoliating pads, this product provides gentle yet effective exfoliation of dead skin cells and impurities, leaving skin smoother and clear. Dead skin cells are sloughed off the surface of the skin using the unique 3 layer pad technology.Its star ingredient, Green Tea, is a powerful antioxidant that prevents premature aging and is an anti-inflammatory that helps soothe irritated skin.30 single-use pads
+    'short_description': 'These neogen green tea exfoliating pads prevent signs of aging & soothe irritated skin. Experience 3 layer pad technology to remove dead skin cells & impurities.',
+    'detail': "You love the neogen bio-peel gauze peeling wine, now try it in Green Tea!
+    With 30 single-use exfoliating pads, this NEOGEN Bio-Peel Gauze Peeling Green Tea product provides gentle yet effective exfoliation of dead skin cells and impurities, leaving skin smoother and clear. Dead skin cells are sloughed off the surface of the skin using the unique 3 layer pad technology.Its star ingredient, Green Tea, is a powerful antioxidant that prevents premature aging and is an anti-inflammatory that helps soothe irritated skin.30 single-use pads
     6.76 oz / 200 ml",
     'price': 27,
     'link': '/collections/skincare/products/neogen-bio-peel-gauze-peeling-green-tea',
@@ -747,32 +465,13 @@ products = [
     'skin_type': 'normal',
     'product_type': physical_exfoliator
   },
-  {
-    'brand': 'ENATURE',
-    'name': 'Moringa Cleansing Balm',
-    'short_description': 'Start your skincare routine with a cleansing balm. Perfect for double cleansing, use it to break down makeup & grime as you massage it in.', 
-    'detail': "Best of K-beauty Award™-winning oil cleanser.
-    This sherbet-like cleansing balm is the perfect first step for your double cleanse: as you massage it into your skin, it breaks down makeup, dirt, excess sebum, and pollution on your skin's surface. 
-    Enriched with moringa pterygosperma seed extract, this formula works to build natural collagen to prevent fine lines and fight the signs of aging. True rose of Jericho and iris extract close the deal promoting smoothness and softness to the skin.
-    E Nature products do not contain any animal ingredients and are free of parabens, mineral oil and artificial fragrances.
-    This product has a pH level of 6
-    2.53 oz / 75 ml",
-    'price': 23,
-    'link': '/collections/skincare/products/enature-moringa-cleansing-balm',
-    'special_link': '/collections/best-sellers/products/enature-moringa-cleansing-balm',
-    'brand_link': '/collections/enature-moringa-cleansing-balm',
-    'ingredients': 'Ethylhexyl Palmitate, Caprylic/Capric Triglyceride, Sorbeth-30 Tetraoleate, Polyethylene, PEG-7 Glyceryl Cocoate, Fragrance, Glyceryl Caprylate, Ethylhexylglycerin, Tocopheryl Acetate, Betula Platyphylla Japonica Juice, Anastatica Hierochuntica Extract, Iris Versicolor Extract, Moringa Pterygosperma Seed Extract, Perilla Frutescens Leaf Extract, Rhododendron Chrysanthum Leaf Extract, Glycerin, Carthamus Tinctorius (Safflower) Oleosomes, Water, Squalane, Cetyl Ethylhexanoate, Neopentyl Glycol Diheptanoate, Hydrogenated Phosphatidylcholine, Alcohol, Hydrogenated Lecithin, Polyglyceryl-10 Myristate, Polyglyceryl-10 Stearate, 1,2-Hexanediol, Cetearyl Alcohol, Polyglyceryl-2 Stearate, Stearic Acid, Panthenol, Carthamus Tinctorius (Safflower) Seed Oil, Oenothera Biennis (Evening Primrose) Oil, Sodium Ascorbyl Phosphate, Polyquaternium-51, Glyceryl Arachidonate, Glyceryl Linolenate, Biotin, Folic Acid, Pyridoxine, Cyanocobalamin.', 
-    'how_to_use': 'Massage a penny-size amount into dry skin with your hands for a minute to dissolve makeup and dirt. Rinse with lukewarm water and follow with a foaming wash for a cleaner finish.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/moringa_cleansing_balm_860x.png?v=1571438554',
-    'skin_type': 'normal',
-    'product_type': oil_cleanser
-  },
+
   {
     'brand': 'ELENSILIA',
     'name': 'CPP Collagen 80% Intensive Eye Cream',
     'short_description': 'This eye cream tightens, brightens, and hydrates. Hydrolyzed French collagen extract makes up 80% of the formula and works to prevent fine lines and firm skin.',
     'detail': "Ready to take your eye care routine to the next level?
-    This eye cream tightens, brightens, and hydrates. Hydrolyzed French collagen extract makes up 80% of the formula and works to prevent fine lines and firm skin. 
+    This elensila cpp collagen 80% intensive eye cream tightens, brightens, and hydrates. Hydrolyzed French collagen extract makes up 80% of the formula and works to prevent fine lines and firm skin. 
     Other ingredient highlights include two patented peptides: The first, SYN-COLL™, boosts collagen production and protects against collagen degradation, and the second, Haloxyl™, reduces puffiness and dark circles. Rounding out the list is gold, which has anti-inflammatory properties and makes you feel fancy.
     This product is free of Paraben, Artificial Fragrance, Mineral Oils, and Alcohol. It does contain natural fragrance. 
     20 ml./0.67 fl.oz",
@@ -791,7 +490,7 @@ products = [
     'name': 'Trouble Cure',
     'short_description': 'First, sanitize and treat the bacteria with a pad that contains salicylic acid and tea tree leaf oil.Then apply the unique pimple patch which contains innovative micro needle technology to the blemish.',
     'detail': "Welcome to the next generation of pimple patches! As featured on The Strategist 
-    This two-step acne treatment is made to tackle deep, hard-to-reach hormonal pimples. 
+    This acropass trouble cure is a two-step acne treatment is made to tackle deep, hard-to-reach hormonal pimples. 
     First, sanitize and treat the bacteria with a pad that contains salicylic acid and tea tree leaf oil.Then apply the unique pimple patch to the blemish. This patch contains innovative microneedle technology to truly infuse skin with hard-working ingredients, including hyaluronic acid, niacinamide, and oligopeptide-76, that dig deep into the blemish and attack bacteria and inflammation faster than other pimple patches. Each microneedle is thinner than 1/3 the width of a hair, making the entire process painless and actually satisfying.
     You'll wake up with a calmed, flattened cystic blemish that will heal faster.
     1 Box includes:6 Swabs6 PatchesFree of fragrances, parabens, mineral oils, and silicone.",
@@ -806,79 +505,15 @@ products = [
     'skin_type': 'normal',
     'product_type': spot_treatment
   },
-  {
-    'brand': 'ETUDE HOUSE',
-    'name': 'Moistfull Collagen Eye Cream',
-    'short_description': 'Try Etude House Moistfull Collagen Eye Cream to moisturize the delicate eye skin area, so that your skin feels hydrated and supple.',
-    'detail': "This lovely and light eye cream is one of Etude House's best-sellers for a reason. Enriched with the brand's super collagen and Baobab seed oil, it nourishes, moisturizes, and firms the delicate skin around your eyes while preventing fine lines. Skin feels hydrated and supple after use.
-    0.95 oz / 28 ml",
-    'price': 19,
-    'link': '/collections/skincare/products/etude-house-moistfull-collagen-eye-cream',
-    'special_link': '/collections/skincare/products/etude-house-moistfull-collagen-eye-cream',
-    'brand_link': '/collections/etude-house',
-    'ingredients': 'Hydrolyzed Collagen, Glycerin, Butylene Glycol, Hydrogenated Poly(C6-14 Olefin), Limnanthes Alba (Meadowfoam) Seed Oil, Hydrogenated Castor Oil Isostearate, Dimethicone, Behenyl Alcohol, Adansonia Digitata Fruit Extract, Adansonia Digitata Seed Oil, Glyceryl Stearate, Cetearyl Alcohol, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Ammonium Acryloyldimethyltaurate/Vp Copolymer, Ethylhexylglycerin, Alcohol, Water, Carbomer, Kaolin, Phenoxyethanol, Poloxamer 407, Polyglyceryl-3 Methylglucose Distearate, Peg-100 Stearate, Phytantriol, Tromethamine, Fragrance',
-    'how_to_use': 'Apply every morning and night before emulsion/moisturizer. Use your ring finger to gently tap the product around the eye area until fully absorbed. Avoid the waterlines.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/DSC01494_860x.jpg?v=1571438542',
-    'skin_type': 'normal',
-    'product_type': eye_cream
-  },
-  {
-    'brand': 'ERBORIAN',
-    'name': 'Seve de Bamboo Eye Matte',
-    'short_description': 'Try the Erborian Bamboo Eye Matte, a gel-like eye cream that improves dark under-eye circles as it delivers intense hydration.', 
-    'detail': "Treat your worn out eyes with this eye cream which helps to visibly reduce the signs of fatigue such as fine lines, dark under-eye circles and dehydrated skin. This moisture-rich gel-like moisturizer contains Bamboo Sap, which helps to intensely hydrate the sensitive eye area for a healthy glowing look as well as Bamboo Fiber, which helps to lock in the moisture, diminishing the look of fine lines. The matte finish helps soften the appearance of dark circles, leaving your eyes looking rested and refreshed!
-    0.5 oz / 15 ml",
-    'price': 34,
-    'link': '/collections/skincare/products/erborian-bamboo-seve-de-bamboo-eye-matte',
-    'special_link': '/collections/best-sellers/products/erborian-bamboo-seve-de-bamboo-eye-matte',
-    'brand_link': '/collections/erborian',
-    'ingredients': 'Aqua/water, Butylene glycol, Glycerin, Propanediol, Pentylene glycol, Phyllostachys bambusoides extract, Diospyros kakileaf extract, Panthenol, Phyllostachys bambusoides juice, Ophiopogon japonicus root extract, Sodium hyaluronate, arginine, Silica, Acrylates/c10-30 alkyl acrylate crosspolymer, PEG-60 hydrogenated castor oil, Dimethicone/vinyl dimethicone crosspolymer, Sodium pca, Phenoxyethanol-xanthan gum, Biosacchari de gum-1, Parfum/fragrance, Ethylhexylglycerin, Glyceryl caprylate, Isoceteth-25, Iso ceteth-10',
-    'how_to_use': 'Pat the product gently under eyes, on the brow bone, and outer corners. Use after cleansing, toner, essence and before moisturizer in the morning and evening.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Erborian_Seve_De_Bamboo_Eye_Matte_PDP_1_low_860x.jpg?v=1573169159',
-    'skin_type': 'normal',
-    'product_type': eye_cream
-  },
-  {
-    'brand': 'SKINRX LAB',
-    'name': 'MadeCera Cream',
-    'short_description': 'Strengthen skin barrier, brighten, and fight premature aging with this multi-tasking cream! Included in the formula is madecassoside, an inflammation-fighting compound naturally occurring in centella asiatica extract.',
-    'detail': "Love this product? Find it in the Dynamic Duo: Skin Soothers value set paired with the Thank You Farmer’s Back to Relax Soothing Gel Mask!
-    Strengthen skin barrier, brighten, and fight premature aging with this multi-tasking cream! Included in the formula is madecassoside, an inflammation-fighting compound naturally occurring in centella asiatica extract.
-    The ingredient excels at reducing redness due to acne and general skin sensitivities. Niacinamide also brightens skin, while adenosine delivers powerful anti-aging and skin-smoothing benefits. Lastly, ceramides wrap skin in heavenly moisture making it feel instantly hydrated, plump, and refreshed, even during harsh winter months when your skin is chapped and dehydrated.
-    Though its supremely nourishing, the non-greasy formula is lightweight enough for daytime use and can be layered at night.
-    Free of parabens, surfactants, and mineral oil, this hydrating cream will soothe your irritated skin and keep it smooth all day long. Subtly Fragranced. 
-    1.69fl oz / 50 ml",
-    'price': 36,
-    'link': '/collections/skincare/products/skinrx-lab-madecera-cream',
-    'special_link': '/collections/best-sellers/products/skinrx-lab-madecera-cream',
-    'brand_link': '/collections/skinrx-lab',
-    'ingredients': 'Water(Aqua), Glycerine, Butylene Glycol, Betaine, Niacinamide, 1,2-Hexanediol, Hydrogenated Lecithin, Behenic Acid, Stearic Acid, Myristic Acid, Stearyl Alcohol, Behenyl Alcohol, Caprylic/Capric Triglyceride, Olea Europaea (Olive) Fruit Oil, Arachidyl Alcohol, Arachidyl Glucoside, Cyclopentasiloxane, Diisostearyl Malate, Ceramide NP, PEG-10 Rapeseed Sterol, Glyceryl Stearate, Glycereth-20, Dipropylene Glycol, Glycosyl Trehalose, Panthenol, PEG-100 Stearate, Dimethicone, Dimethicone/PEG-10/15 Crosspolymer, Lauryl PEG-9 Polydimethylsiloxyethyl Dimethicone, Dimethicone/Vinyl, Lanolin, Hydroxyethyl Acrylate/ Sodium Acryloyldimethyl Taurate Copolymer, Squalane, Polysorbate 60, Allantoin, Xanthan Gum, Asiaticoside, Madecassic Acid, Asiatic Acid, Adenosine, Dipotassium Glycyrrhizate, Madecassoside, Fragrance',
-    'how_to_use': 'After cleansing, toning and using treatment products, dispense the cream into the palm of the hand. Smooth or pat over skin, until fully absorbed. Follow with SPF during the day or use it as your last skincare step at night.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/SKINRX_Lab_MadeCera_Cream_PDP_1_low_860x.jpg?v=1573168456',
-    'skin_type': 'normal',
-    'product_type': facial_moisturizer    
-  },
-  {
-    'brand': 'KLAIRS',
-    'name': 'Toner Mate 2 in 1 Cotton Pad',
-    'short_description': "You'll get 2 different types of high-quality cotton pads to use with your toner. Box set includes 60 compressed cotton pads & 60 sponge cotton pads.",
-    'detail': "This box contains two different types of high-end cotton pads that are the perfect fit when used with the Klairs Supple Preparation Facial Toner to give you greater use out of your toner.
-    Compressed Cotton Pad: Created through a water jet method to compress 100% pure cotton a total of five times, this cotton pad has been designed specifically to help tone the face. Because it helps following products absorb into the skin better by cleansing the face of any remaining dirt, oil and dead skin cells after cleansing, it is recommended that this step be taken before applying other skin care products.
-    Sponge Cotton Pad: This cotton pad has been created similar to a sponge, so it collects the toner and returns the product back to the face, as compared to the conventional cotton pad that simply absorbs most of the product. Rather than using wiping motions to cleanse the face, this sponge is created to be more fit to hydrate the face through dabbing the sponge on the face and letting the skin naturally absorb the toner.Includes 60 Compressed Cotton Pads and 60 Sponge Cotton Pads (120 total). Compressed Cotton Pad: 100% cotton. Sponge Cotton Pad: Pulp + rayon blend",
-    'price': 6.50,
-    'link': '/collections/skincare/products/klairs-toner-mate-2-in-1-cotton-pad',
-    'special_link': '/collections/skincare/products/klairs-toner-mate-2-in-1-cotton-pad',
-    'brand_link': '/collections/klairs',
-    'how_to_use': 'After cleansing, soak the Compressed Cotton Pad thoroughly with the Klairs toner and gently wipe the face, removing any irritants. Next, soak the Sponge Cotton Pad with an adequate amount of the toner and gently pat the skin, allowing absorption.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/DSC02277_860x.jpg?v=1571438555',
-    'skin_type': 'normal',
-    'product_type': toner    
-  },
+
+
+
+ 
   {
     'brand': 'MISSHA',
     'name': 'Super Aqua Cell Renew Snail Hydro Gel Mask',
     'short_description': "Try this hydrogel sheet mask, infused with fermented snail mucin & gold extracts. Use it to boost skin's elasticity, hydrate & repair dull, dry skin.", 
-    'detail': "A hydro-gel facial mask infused with fermented snail mucin and gold extracts that hydrates, brightens, and repairs dry, dull skin. Snail mucin provides a visible boost to skin's elasticity, smoothing and tightening skin's appearance.
+    'detail': "This missha Super Aqua Cell Renew Snail Hydro Gel Mask is A hydro-gel facial mask infused with fermented snail mucin and gold extracts that hydrates, brightens, and repairs dry, dull skin. Snail mucin provides a visible boost to skin's elasticity, smoothing and tightening skin's appearance.
     .88 oz / 25 g",
     'price': 3,
     'link': '/collections/skincare/products/missha-super-aqua-cell-renew-snail-hydro-gel-mask',
@@ -894,7 +529,7 @@ products = [
     'brand': 'ACWELL',
     'name': 'Licorice pH Balancing Essence Mist',
     'short_description': 'This mist has a milky texture that delivers an ultra-fine, even spray with its nutrient-packed formula including brightening licorice water and root extracts.',
-    'detail': "We collaborated with Acwell to exclusively bring you this essence mist, a new companion product to the brand’s best-selling Licorice pH Balancing Cleansing Toner. 
+    'detail': "We collaborated with acwell to exclusively bring you this Licorice pH Balancing Essence Mist essence mist, a new companion product to the brand’s best-selling Licorice pH Balancing Cleansing Toner. 
     The mist is unlike any other you’ve used before thanks to its milky texture that delivers an ultra-fine, even spray and its balancing, nutrient-packed formula. Star ingredients include brightening saccharomyces ferment filtrate and licorice water and root extracts, moisture-locking bamboo water and soothing centella asiatica leaf water. With no added fragrance or potentially irritating ingredients, the mist is perfect for all skin types and is the ultimate antidote to dryness, dullness and sensitivity. Use the treatment product as an essence after the Acwell Licorice pH Balancing Cleansing Toner, as a hydrating midday pick-me-up or as a setting spray after makeup. Learn more here. 
     * Shake before use
     pH level of ~5.5-6.  
@@ -920,7 +555,7 @@ products = [
     'brand': 'TONY MOLY',
     'name': 'Petite Bunny Gloss Bar',
     'short_description': 'Get these adorable gloss bars that not only look really cute in your purse, but are also super hydrating with a delicious fruity scent and glossy sheer finish.', 
-    'detail': "Never lose your lip balm again. These adorable gloss bars not only look really cute in your purse, they're super hydrating with a delicious fruity scent and glossy sheer finish. We keep each expression of this award-winning lippy around for however you're feeling any given day.",
+    'detail': "Never lose your lip balm again. This adorable tony moly petite bunny gloss bar is not only look really cute in your purse, they're super hydrating with a delicious fruity scent and glossy sheer finish. We keep each expression of this award-winning lippy around for however you're feeling any given day.",
     'price': 5,
     'link': '/collections/skincare/products/tonymoly-petite-bunny-gloss-bar',
     'special_link': '/collections/skincare/products/tonymoly-petite-bunny-gloss-bar',
@@ -936,7 +571,7 @@ products = [
     'name': 'Snail Bee High Content Mask Pack (Box of 10)',
     'short_description': 'Get a pack of 10 cotton sheet masks soaked in snail mucin & bee venom for hydration & improved skin tone & texture. Great for acne-prone skin.', 
     'detail': "As featured on The Strategist 
-    This sheet mask is made of pure cotton and is soaked in snail mucin to deeply nourish and hydrate irritated skin. Bee venom extract helps improves skin tone and texture.
+    This benton snail bee high content mask pack (Box of 10) sheet mask is made of pure cotton and is soaked in snail mucin to deeply nourish and hydrate irritated skin. Bee venom extract helps improves skin tone and texture.
     Recommended for all skin types, especially acne-prone skin.
     *final sale
     This product has a pH level of 6.5-7.5",
@@ -951,28 +586,11 @@ products = [
     'skin_type': 'normal',
     'product_type': sheet_mask
   },
-  {
-    'brand': 'MISSHA',
-    'name': 'Time Revolution Clear Toner',
-    'short_description': 'Get clear, bright skin with the Missha Time Revolution Toner. Try its fermented yeast extract formula to gently wipe away impurities & dead skin cells.', 
-    'detail': "This fragrance-free toner has a mild formula that cleans the skin of impurities left behind by your cleanser, while gently removing debris and dead skin cells with mild AHA and BHA exfoliators. 
-    The Clear Toner also has Missha's popular fermented yeast extract (saccharomyces ferment filtrate), which helps encourage cellular turnover, promoting clear, bright and even skin tone. Use this toner after your double-cleanse to sweep away remaining impurities while helping your skin absorb the remaining treatments.
-    This product has a pH level of 4.
-    8.45 oz / 250 ml",
-    'price': 28,
-    'link': '/collections/skincare/products/missha-time-revolution-toner',
-    'special_link': '/collections/skincare/products/missha-time-revolution-toner',
-    'brand_link': '/collections/missha',
-    'ingredients': 'Water, Saccharomyces Ferment Filtrate, Propanediol, Glycerin, Pentylene Glycol, Butylene Glycol, 1,2-Hexanediol, Phenoxyethanol, Hordeum Distichon (Barley) Extract, Cellulose Gum, Disodium EDTA, Salicylic Acid, Sodium Citrate, Citric Acid, Sodium Hyaluronate, Bifida Ferment Lysate, Potassium Sorbate, Lactic Acid, Acetic Acid',
-    'how_to_use': 'After cleansing, saturate a cotton pad with the toner and sweep across your skin, or pour a few drops into your hands and pat onto your face. Follow with essence, serum and moisturizer.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Missha-Time-Revolution-Clear-Toner_3df7ce9f-4ffb-4db2-af80-f8de8fab0298_860x.jpg?v=1571438547',   
-    'skin_type': 'normal',
-    'product_type': toner 
-  },
+
   {
     'brand': 'MISSHA',
     'name': 'M Magic Cushion SPF50+/PA+++',
-    'short_description': 'Get flawless coverage with the MISSHA M Magic Cushion SPF 50 foundation. Experience its light buildable formula to moisturize, soothe and protect your skin.', 
+    'short_description': 'Get flawless coverage with the missha m magic ushion SPF 50 foundation. Experience its light buildable formula to moisturize, soothe and protect your skin.', 
     'detail': "Get flawless coverage with the MISSHA M Magic Cushion. Its light buildable formula moisturizes, soothes and protects (SPF 50 PA+++). It even absorbs sweat and sebum, leaving makeup lasting longer and with its unique silica-bead powder, won't oxidize after application. Bamboo water and baobao fruit extract keep your skin hydrated and comfortable.",
     'price': 19,
     'link': '/collections/skincare/products/missha-m-magic-cushion-spf50-pa',
@@ -984,24 +602,7 @@ products = [
     'skin_type': 'normal',
     'product_type': makeup_and_spf 
   },
-  {
-    'brand': 'KLAIRS',
-    'name': 'Gentle Black Deep Cleansing Oil',
-    'short_description': 'Try this gentle cleanser is mild & hypo-allergenic, perfect for sensitive skin. Its vegetable oils to gently cleanse, hydrate & protect irritated skin.', 
-    'detail': "The Klairs Gentle Black Deep Cleansing Oil is mild yet effective - perfect for sensitive skin. Its hypoallergenic formula is packed with vegetable oils that gently cleanse, moisturize and protect. 
-    Some of the star ingredients include antioxidant-rich black sesame oil, anti-inflammatory black currant seed oil, and moisturizing jojoba seed oil, making the cleanser especially great for dry skin types. 
-    This product has a pH level of 7.
-    5.07 oz / 150 ml",
-    'price': 18.40,
-    'link': '/collections/skincare/products/klairs-gentle-black-deep-cleansing-oil',
-    'special_link': '/collections/skincare/products/klairs-gentle-black-deep-cleansing-oil',
-    'brand_link': '/collections/klairs',
-    'ingredients': 'Caprylic/Capric Triglyceride, Cetyl Ethylhexanoate, Isononyl Isononanoate, PEG-7 Glyceryl Cocoate , Isopropyl Myristate, Simmondsia Chinensis (Jojoba) Seed Oil, Glycine Soja (Soybean) Oil, Sesamum Indicum (Sesame) Seed Oil , Ribes Nigrum (Black Currant) Seed Oil , Tocopheryl Acetate , PEG-20 Glyceryl Triisostearate , Polysorbate 20, Fragrance, Butyrospermum Parkii (Shea Butter) , Carapa Guaianensis Seed Oil, Vaccinium Macrocarpon (Cranberry) Seed Oil',
-    'how_to_use': 'Apply to a dry face, with or without makeup. Gently massage in small circles across the face. Rinse with lukewarm water.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/DSC04043_860x.jpg?v=1571438547',
-    'skin_type': 'normal',
-    'product_type': oil_cleanser
-  },
+ 
   {
     'brand': 'THE PLANT BASE',
     'name': 'Waterfall Moist Balanced Hyaluronic Acid 100',
@@ -1068,43 +669,7 @@ products = [
     'skin_type': 'normal',
     'product_type': sheet_mask
   },
-  {
-    'brand': 'KLAIRS',
-    'name': 'Midnight Blue Calming Sheet Mask',
-    'short_description': 'This sheet mask not only soothes irritation with ingredients like willow bark, but is made from bamboo charcoal to draw out impurities from pores - perfect for those with large pores.', 
-    'detail': "Meet your new sunburn savior! This sheet mask not only soothes irritation with ingredients like willow bark and centella asiatica extracts, but actually lowers the skin’s temperature with the help of erythritol.Bonus: The sheet mask itself is made from bamboo charcoal to draw out impurities from pores, which is perfect for those with large pores. 
-    25 ml. / 0.85 fl. oz.",
-    'price': 3,
-    'link': '/collections/skincare/products/klairs-midnight-blue-calming-sheet-mask',
-    'special_link': '/collections/skincare/products/klairs-midnight-blue-calming-sheet-mask',
-    'brand_link': '/collections/klairs',
-    'ingredients': 'Water, Butylene Glycol, Methylpropanediol, Glycereth-26, 1,2 Hexanediol, Salix Alba (Willow) Bark Extract, Glycerin, Erythritol, Arginine, Carbomer, Carrageenan, Betaine, Allantoin, Ethylhexylglycerin, Propanediol, Polyglyceryl-10 Laurate, Glyceryl Acrylate/Acrylic Acid Copolymer, PVM/MA Copolymer, Disodium EDTA, Dipotassium Glycyrrhizate, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Centella Asiatica Extract',
-    'how_to_use': 'Before opening, lightly rub the packaging to saturate the sheet with the essence. Place the sheet mask on face after cleansing and toning. 
-    Leave on for up to 20 minutes. Pat the excess into skin.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/DSC03923_860x.jpg?v=1571438584',
-    'skin_type': 'normal',
-    'product_type': sheet_mask
-  },
-  {
-    'brand': 'BANILA CO',
-    'name': 'Clean It Zero Cleansing Balm Revitalizing',
-    'short_description': "This award-winning cleanser starts as a solid balm but becomes a silky oil on your skin. It'll melt away makeup & deliver antioxidants skin-deep.",
-    'detail': "Your favorite classic oil cleanser just got upgraded -- on the outside and inside!
-    This cult favorite still goes on as a soft balm and melts off stubborn makeup seamlessly without stripping your skin of its natural oils. Perfect for oily skin, this formula includes resveratrol, which is a natural antioxidant that helps fight free radical damage.
-    So what’s changed in the formula? Mineral oil has been replaced with natural ester oil, butylated hydroxytoluene is gone and skin-friendly vitamin E acetate is in it's place (allowing this cleanser to be used on all skin types, even kids!), and butyl parahydroxybenzoate has been replaced with phenoxyethanol, an ingredient naturally derived from green tea to provide a fresh, rose scent. Even more, the texture of the cleanser has been improved to be even smoother and softer with a higher melting point, meaning no more summer meltdowns! 
-    The new packaging is perfect for your shelfie and the formula is better for your skin!
-    This product has a pH level of 6.2
-    3.38 oz / 100ml",
-    'price': 24,
-    'link': '/collections/skincare/products/banila-co-clean-it-zero-resveratrol',
-    'special_link': '/collections/skincare/products/banila-co-clean-it-zero-resveratrol',
-    'brand_link': '/collections/banila-co',
-    'ingredients': 'Cetyl Ethylhexanoate, PEG-20 Glyceryl Triisostearate, PEG-10 Isostearate, Synthetic Wax, Phenoxyethanol, Butylene Glycol, Fragrance, Vitis Vinifera (Grape) Seed Oil, Olea Europaea (Olive) Fruit Oil, Tocopheryl Acetate, Water, Ethylhexylglycerin, Thuja Orientalis Leaf Extract, Propanediol, Zanthoxylum Piperitum Fruit Extract, Carthamus Tinctorius (Safflower) Flower Extract, Dextrin Gardenia Florida Fruit Extract, Vitis Vinifera (Grape) Root Extract, Vitis Vinifera (Grape) Vine Extract, 1,2-Hexanediol Bambusa Vulgaris Leaf/Stem Extract, Aspalathus Linearis Extract, Angelica Archangelica Root Extract, Malpighia Glabra (Acerola) Fruit Extract, Resveratrol, Polydiethyleneglycol Adipate/IPDI Copolymer, Acrylates/Ammonium Methacrylate Copolymer, Acrylates/Methoxy PEG-15 Methacrylate Copolymer',
-    'how_to_use': 'Use spatula to scoop a small amount and massage balm over dry skin. Rinse skin with lukewarm water and pat dry.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Banila-Co-Clean-It-Zero-Revitalizing_860x.jpg?v=1571438549',    
-    'skin_type': 'normal',
-    'product_type': oil_cleanser
-  },
+
   {
     'brand': 'NEOGEN',
     'name': 'Cranberry Real Fresh Foam Cleanser',
@@ -1121,25 +686,7 @@ products = [
     'skin_type': 'normal',
     'product_type': water_cleanser
   },
-  {
-    'brand': 'NEOGEN',
-    'name': 'Real Flower Cleansing Water—Calendula',
-    'short_description': "If natural beauty is your thing, Neogen's Real Flower Calendula Cleansing Water is a product that you'll absolutely love.",
-    'detail': "Featured in the Ipsy Glam Bag
-    If natural beauty is your thing, Neogen's Real Flower Calendula Cleansing Water is one skin care product that you'll absolutely love. It's perfect as a post-cleansing toner or a standalone cleansing step similar to micellar water.
-    With real calendula petals suspended in the water, its calming formula is perfect for those with easily-irritated skin that's prone to redness. Those with oily, combination and acne-prone skin can benefit from its balancing formula that whisks away excess oil and sebum while keeping your skin hydrated. Calendula petal extracts and natural cleansing agents help to sweep dirt and impurities from your skin, leaving soft clean skin in its wake with a gentle fresh scent from the flower petals inside.
-    A mesh filter built into the packaging prevents the natural sediment from leaving the bottle.
-    9.9 oz / 300 ml",
-    'price': 22,
-    'link': '/collections/skincare/products/neogen-real-flower-cleansing-water-calendula',
-    'special_link': '/collections/skincare/products/neogen-real-flower-cleansing-water-calendula',
-    'brand_link': '/collections/neogen',
-    'ingredients': 'Water, PEG-6 Caprylic/Capric Glycerides, Calendula Officinalis Flower, Calendula Officinalis Extract, Chamomilla Recutita (Matricaria) Extract, Hedera Helix (Ivy) Extract, Allantoin, Arnica Montana Flower Extract, Mentha Rotundifolia Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Centella Asiatica Extract, 1,2, Hexanediol, Xylitol, Dipropylene Glycol, Cetrimonium Chloride, Sodium Chloride, Phenoxyethanol, Panthenol, Ethylhexylglycerin, PEG-60 Hydrogenated Castor Oil, Disodium EDTA, Fragrance',
-    'how_to_use': 'Saturate a cotton pad with the cleansing water and gently sweep across your face, moving from the center, outwards. To help remove stubborn makeup, press a soaked cotton pad against your skin for a few moments to help dissolve the makeup before sweeping it away.', 
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Neogen-Real-Flower-Cleansing-Water-Calendula_13c96a0b-e7a3-42b7-939d-bad2eef17c47_860x.jpg?v=1571438549',
-    'skin_type': 'normal',
-    'product_type': water_cleanser
-  },
+ 
   {
     'brand': 'KLAIRS',
     'name': 'Rich Moist Soothing Serum',
@@ -1163,7 +710,7 @@ products = [
     'brand': 'CLIO',
     'name': 'Waterproof Pen Liner',
     'short_description': 'This creamy cleansing foam features over 30 natural plant extracts to help remove all remaining traces of makeup and dissolve impurities.',
-    'detail': "One of the best long-lasting liquid liners just got even better! Clio has updated its popular liner to have an even darker pigment, a more precise application, and to last even longer. 
+    'detail': "One of the best long-lasting liquid liners just got even better! Clio Waterproof Pen Liner has updated its popular liner to have an even darker pigment, a more precise application, and to last even longer. 
     The color has increased carbon black content to be darker and more vivid, and glide on smoother. The formula is now even more waterproof and long-lasting, thanks to the inclusion of polar resin, which contains stronger polymers to prolong adhesion. It dries to a matte finish that stays put through sweat, tears and whatever you can throw on it. 
     The new, more precise felt tip applicator is great for pinpointing exact lines and giving you maximum control. When you're done for the night, it easily removes with your oil-based cleanser!
     0.02 oz / 0.55 ml",
@@ -1182,7 +729,7 @@ products = [
     'name': 'Pure Pearlsation Revitalizing Facial Cleansing Foam',
     'short_description': 'This lip sleeping treatment is enriched with nourishing avocado, sweet almond, and apricot seed oils to transform lips from chapped to supple and soft overnight.',
     'detail': "This creamy cleansing foam features over 30 natural plant extracts to help remove all remaining traces of makeup and dissolve impurities your oil cleanser may have missed. Pearl extract brightens and provides anti-aging benefits while seaweed and algae extract boosts hydration.
-    This product has a pH level of 8.5-9.5
+    This klavuu pure pearlsation revitalizing facial cleansing foam has a pH level of 8.5-9.5
     4.39 oz / 130 ml",
     'price': 30,
     'link': '/collections/skincare/products/klavuu-pure-pearlsation-revitalizing-facial-cleansing-foam',
@@ -1194,29 +741,12 @@ products = [
     'skin_type': 'normal',
     'product_type': water_cleanser
   },
-  {
-    'brand': 'KLAVUU',
-    'name': 'Nourishing Care Lip Sleeping Pack',
-    'short_description': "This Skinfood wash off face mask gently exfoliates with the power of strawberries. Massage in, wash off. It's that easy to have skin soft & glowing.", 
-    'detail': "Kiss dry, flaky lips goodbye!
-    This treatment is enriched with nourishing avocado, sweet almond, and apricot seed oils to transform lips from chapped to supple and soft overnight. The mask feels silky, not sticky, and instantly refreshes and soothes dehydrated lips. 
-    The formula has a subtle vanilla flavor and is free of parabens. 
-    0.70 oz / 20 g.",
-    'price': 15,
-    'link': '/collections/skincare/products/klavuu-nourishing-care-lip-sleeping-pack',
-    'special_link': '/collections/best-sellers/products/klavuu-nourishing-care-lip-sleeping-pack',
-    'brand_link': '/collections/klavuu',
-    'ingredients': 'Polybutene, Dipentaerythrityl Hexahydroxystearate/Hexastearate/Hexarosinate, Diisostearyl Malate, Octyldodecanol, Ricinus Communis (Castor) Seed Oil, Methyl Hydrogenated Rosinate, Ceresin, Synthetic Wax, Persea Gratissima (Avocado) Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Prunus Armeniaca (Apricot) Kernel Oil, Pearl Extract, Hydrogenated Castor Oil, Ethylene/Propylene Copolymer, Beeswax, Disteardimonium Hectorite, Copernicia Cerifera (Carnauba) Wax, Tocopherol, Propylene Carbonate, Water, Butylene Glycol, 1,2-Hexanediol, Caprylyl Glycol, Dehydroacetic Acid, Fragrance (Parfum)',
-    'how_to_use': 'Apply an adequate amount on lips before bed or throughout the day for hydration.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Klavuu_Nourishing_Care_Lip_Sleeping_Pack_PDP_1_low_860x.jpg?v=1573169468',
-    'skin_type': 'normal',
-    'product_type': sleeping_mask
-  },
+
   {
     'brand': 'SKINFOOD',
     'name': 'Black Sugar Strawberry Wash-Off Face Mask',
     'short_description': "Containing 10 full sized skin-balancing products, this Korean skincare set was curated for combination skin. Discover skin care that's right for your skin type.",
-    'detail': "Say hello to baby smooth skin. Exfoliate gently once a week with this delicious smelling mask made out of strawberry seed oil and black sugar.
+    'detail': "Say hello to baby smooth skin. Exfoliate gently once a week with this SKINFOOD Black Sugar Strawberry Wash-Off Face Mask delicious smelling mask made out of strawberry seed oil and black sugar.
     3.38 oz / 100 ml",
     'price': 10.70,
     'link': '/collections/skincare/products/skinfood-strawberry-mask-wash-off',
@@ -1232,7 +762,7 @@ products = [
     'brand': 'Glow Up Exclusive',
     'name': '10-Step Korean Skincare Routine Set (Combination Skin Type)',
     'short_description': 'This lightweight base cream is packed with flower extracts you’ll love, including lily, rose, and jasmine. Get brighter, smoother, and more even skin.',
-    'detail': "The famed 10-step Korean skin care routine is easier than ever to do with this value set, curated for your skin type. This is a combination skin type routine set that specifically targets your skin care needs This value set includes 10 full-size products.*
+    'detail': "The famed 10-step Korean skin care routine is easier than ever to do with this value set, curated for your skin type. This Glow Up Exclusive 10-Step Korean Skincare Routine Set (Combination Skin Type) is a combination skin type routine set that specifically targets your skin care needs This value set includes 10 full-size products.*
     If you're unsure of your skin type or have questions about the products, you can also follow Charlotte's guidelines from The Little Book of Skin Care to see if this set is for you. Signs you have Combination Skin:
     - Your dry in some areas and oily in others
     - Your skin can change behavior seasonally
@@ -1281,95 +811,11 @@ products = [
     'skin_type': 'normal',
     'product_type': facial_moisturizer
   },
-  {
-    'brand': 'SKINFOOD',
-    'name': 'Rice Wash-Off Face Mask',
-    'short_description': 'Never feeling greasy or heavy, get intense hydration with this moisturizing cream with hyaluronic acid. Use daily to help your skin balance its water & oil ratio.', 
-    'detail': "Use this mild exfoliant just once a week to keep your face looking youthful and radiant. This light, milky wash-off facial mask gently sloughs off dead skin cells while the rice extract brightens your skin and gives it a healthy, dewy glow.
-    Free of parabens and mineral oils, this product has a pH level of 6.1
-    3.5 oz / 103 ml",
-    'price': 10,
-    'link': '/collections/skincare/products/skinfood-rice-mask-wash-off',
-    'special_link': '/collections/skincare/products/skinfood-rice-mask-wash-off',
-    'brand_link': '/collections/skinfood',
-    'ingredients': 'Water, Caprylic/Capric Triglyceride, Cyclopentasiloxane, Cetyl Alcohol, Propylene Glycol, Oryza Sativa (Rice) Bran Water, Glycerin, Polysorbate 80, Jojoba Esters, Peg-100 Stearate, Glyceryl Stearate, Palmitic Acid, Stearic Acid, Sorbitan Stearate, Dimethicone, Carbomer, Potassium Hydroxide, Algin, Sucrose Cocoate, Tocopheryl Acetate, Sodium Hyaluronate, Polyglutamic Acid, 1, 2-Hexanediol , Ethylhexylglycerin, Phenoxyethanol, Fragrance',
-    'how_to_use': 'Gently massage the mask onto a freshly washed, damp face, avoiding the eyes. Leave on for 10-15 minutes, then rinse the mask off with warm water. We recommend using this mask once a week.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/DSC02289_860x.jpg?v=1571438544',
-    'skin_type': 'normal',
-    'product_type': wash_off_mask
-  },
-  {
-    'brand': 'COSRX',
-    'name': 'Hyaluronic Acid Intensive Cream',
-    'short_description': 'This gentle eye cream revitalizes and brightens the eye area using powerful ingredients from traditional Korean herbal medicine. Pamper your delicate eyes.',
-    'detail': "This intensely hydrating cream boosts moisture content in your skin and seals it inside, protecting your skin from further loss of hydration while balancing your skin’s water and oil content. With sea buckthorn oil providing nourishing vitamins and amino acids, it’s an excellent antioxidant to help repair cells and slow signs of aging.
-    Combined with the key hydrator, hyaluronic acid, this moisturizer is able to give you a high dosage of moisture in a cream that absorbs into your skin so you don’t ever feel greased up or heavy. This is perfect to pile on the moisture in your skin care routine without feeling like you’re wearing a heavy cream on your face. 
-    It’s excellent for dry to normal skin types. Think of this moisturizer like a quenching beverage for your parched skin.
-    Find out why we curated COSRX.
-    This product has a pH level of 6
-    Fragrance-free.
-    3.38 oz / 100 ml", 
-    'price': 22,
-    'link': '/collections/skincare/products/cosrx-hyaluronic-acid-intensive-cream',
-    'special_link': '/collections/skincare/products/cosrx-hyaluronic-acid-intensive-cream',
-    'brand_link': '/collections/cosrx-hyaluronic-acid-intensive-cream',
-    'ingredients': 'Hippophae Rhamnoides Water, Glycerin, Butylene Glycol, Caprylic/Capric Triglyceride, Betaine, Helianthus Annuus (Sunflower) Seed Oil, Cetearyl Alcohol, Cetearyl Olivate, Sorbitan Olivate, Macadamia Ternifolia Seed Oil, 1,2-Hexanediol, Sodium Hyaluronate, Arginine, Panthenol, Dimethicone, Ethylhexylglycerin, Carbomer, Allantoin, Xanthan Gum',
-    'how_to_use': 'After cleansing, toning and using treatment products, dispense the cream into the palm of the hand. Smooth or pat over skin, until fully absorbed. Follow with SPF during the day or use it as your last skincare step at night.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/COSRX-Hyaluronic-Acid-Intensive-Cream-1-updated_860x.jpg?v=1574780323',
-    'skin_type': 'normal',
-    'product_type': facial_moisturizer
-  },
-  {
-    'brand': 'MISSHA',
-    'name': 'Misa Geum Sul Vitalizing Eye Cream®',
-    'short_description': "Feel refreshed after using this skin cooling toner. It's low pH maintains skin's hydration & balance. Also free of fragrance, artificial color or parabens.", 
-    'detail': "",
-    'price': 45,
-    'link': '/collections/skincare/products/missha-misa-geum-sul-vitalizing-eye-cream-30ml',
-    'special_link': '/collections/best-sellers/products/missha-misa-geum-sul-vitalizing-eye-cream-30ml',
-    'brand_link': '/collections/missha',
-    'ingredients': 'Water, Propylen Glycol, Ascorbic Acid , Hydroxyethylcellulose, Centella Asiatica Extract, Citrus Junos Fruit Extract , IlliciumVerum(Anise) Fruit Extract, Citrus Paradisi (Grapefruit) Fruit Extract, Nelumbium Speciosum Flower Extract, Paeonia Suffruticosa Root Extract , Scutellaria Baicalensis Root Extract, Polysorbate60, Brassica OleraceaItalica (Broccoli) Extract, Chaenomeles Sinensis Fruit Extract, Orange Oil Brazil, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Disodium EDTA, Lavandula Angustifolia (Lavender) Oil , Camellia SinensisCallus Culture Extract, LarixEuropaeaWood Extract, Chrysanthellum Indicum Extract, Rheum Palmatum Root Extract, Asarum Sieboldi Root Extract, Quercus Mongolia Leaf Extract, PersicariaHydropiperExtract, Corydalis Turtschaninovii Root Extract, Coptis Chinensis Root Extract, Magnolia Obovata Bark Extract, Lysine HCL, Proline, Sodium Ascorbyl Phosphate, Acetyl Methionine, Theanine, Lecithin, Acetyl Glutamine, SH-Olgopeptide-1, SH-Olgopeptide-2, SH-Polypeptide-1, SH-Polypeptide-9, SH-Polypeptide-11, Bacillus/Soybean/Folic Acid Ferment Extract, Sodium Hyaluronate, CaprylylGlycol , Butylene Glycol, 1,2-Hexanediol.',
-    'how_to_use': 'Apply to a clean face after cleansing and toner. Can apply as spot treatment or apply all over the face and neck. Finish off with moisturizer. For sensitive skin types, can add a drop and mix with moisturizer before application.Note: Because even top-of-the-line vitamin C products can degrade from sun exposure, make sure you keep yours away from sunlight to preserve the formula.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Klairs_Freshly_Juiced_Vitamin_C_Serum_PDP_low_860x.jpg?v=1573169182',
-    'skin_type': 'normal',
-    'product_type': eye_cream
-  },
-  {
-    'brand': 'ETUDE HOUSE',
-    'name': 'SoonJung pH 5.5 Relief Toner',
-    'short_description': 'Try this multi-tasking toner that is fortified with key ingredients plus three types of chemical exfoliants to effectively boost cell turnover and keep skin smooth and healthy. Great to use on sensitive skin.',
-    'detail': "Love this product? Find it in the Dynamic Duo: Texture Refiners value set paired with the Isntree Clear Skin 8% AHA Essence!
-    Sometimes keeping it simple is the solution. This toner uses 97% naturally derived ingredients and has a low pH of 5.5 to keep skin balanced and hydrated throughout the day. Free of potential irritants like fragrance, artificial color, and parabens, this toner will be your best friend, especially if you have sensitive skin. Panthenol, a skin-benefitting compound closely related to Vitamin B5, delivers deep hydration, while madecassoside, derived from Centella asiatica, repairs skin damage. With a water-like consistency, this refreshing toner intensely hydrates and cools down your skin. 
-    6.08 fl.oz. / 180 ml",
-    'price': 15.60,
-    'link': '/collections/skincare/products/soonjung-ph-5-5-relief-toner',
-    'special_link': '/collections/best-sellers/products/soonjung-ph-5-5-relief-toner',
-    'brand_link': '/collections/etude-house',
-    'ingredients': 'Water, Propanediol, Glycerin, Betaine, Panthenol, Madecassoside, Camellia Sinensis Leaf Extract, Scutellaria Baicalensis Root Extract, 1,2-hexanediol, Butylene Glycol, Ethylhexylglycerin, Carbomer, Polyglycerin-3, Disodium Edta', 
-    'how_to_use': 'Use twice a day, morning and night. Apply with a cotton pad, sweeping gently over face and neck, or dispense onto palms and gently pat onto skin to aid absorption.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/DSC09986_860x.jpg?v=1571438577',
-    'skin_type': 'normal',
-    'product_type': toner 
-  },
-  {
-    'brand': 'SOME BY MI',
-    'name': 'AHA-BHA-PHA 30Days Miracle Toner',
-    'short_description': 'Try this pore cleanser made with carbonated water, kaolin clay and centella asiatica extract to instantly eliminate excess sebum, blackheads, makeup and more.', 
-    'detail': "Love this product? Find it in the Dynamic Duo: Breakout Busters value set paired with the Etude House SoonJung Hydro Barrier Cream!
-    A cult favorite, one bottle of this multi-tasking toner is sold every three seconds! As its name suggests, the formula boasts three types of chemical exfoliants (AHAs, BHAs, and PHAs) plus papaya and witch hazel extracts to effectively boost cell turnover and keep skin smooth and healthy. A high concentration of tea tree water extract also promotes clear skin, as well as soothes inflammation, while adenosine and niacinamide target wrinkles and a dull skin tone. 
-    Despite its powerful ingredients, the toner is dermatologically tested for sensitive skin and has an optimal pH of 5.5. 
-    The formula is free of artificial fragrance and colors, parabens, sulfates, alcohol, mineral oil and silicone.
-    5.07oz / 150ml",
-    'price': 16,
-    'link': '/collections/skincare/products/some-by-mi-aha-bha-pha-30days-miracle-toner',
-    'special_link': '/collections/best-sellers/products/some-by-mi-aha-bha-pha-30days-miracle-toner',
-    'brand_link': '/collections/some-by-mi',
-    'ingredients': 'Water,Butylene Glycol,Dipropylene Glycol,Glycerin,Niacinamide,Melaleuca Alternifolia (Tea Tree) Leaf Water,Polyglyceryl-4 Caprate,Carica Papaya (Papaya) Fruit Extract,Lens Esculenta (Lentil) Seed Extract,Hamamelis Virginiana (Witch Hazel) Extract,Nelumbo Nucifera Flower Extract,Swiftlet Nest Extract,Sodium Hyaluronate,Fructan,Allantoin,Adenosine,Hydroxyethyl Urea,Xylitol,Salicylic Acid,Lactobionic Acid,Citric Acid,Sodium Citrate,1,2-Hexanediol,Benzyl Glycol,Ethylhexylglycerin,Raspberry Ketone,Mentha Piperita (Peppermint) Oil',
-    'how_to_use': 'After cleansing, soak a cotton pad with the toner and gently wipe over your skin. Tap to ensure absorption.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Some_By_Mi_AHA_BHA_PHA_30_Days_Miracle_Toner_PDP_860x.jpg?v=1571438598',
-    'skin_type': 'normal',
-    'product_type': toner
-  },
+  
+
+ 
+ 
+  
 ]
 
 products.each do |product|
@@ -1379,9 +825,29 @@ end
 psc1 = ProductSkinConcern.create('product': Product.first, 'skin_concern': SkinConcern.first)
 psc2 = ProductSkinConcern.create('product': Product.second, 'skin_concern': SkinConcern.second)
 
-u1 = User.create('first_name': 'Eunice', 'last_name': 'Kim', 'email_address': 'e@email.com', 'password': '1234')
-u2 = User.create('first_name': 'Chris', 'last_name': 'Kim', 'email_address': 'c@email.com', 'password': '12345')
+u1 = User.create('first_name': 'brinda', 'last_name': 'behal', 'email_address': 'e@email.com', 'password': '1234')
+u2 = User.create('first_name': 'brinda', 'last_name': 'behal', 'email_address': 'c@email.com', 'password': '12345')
+# r1 = Review.create('rating': 4, 'review': 'great! would buy again', 'product': Product.first)
 
-r1 = Review.create('rating': 4, 'review': 'great! would buy again', 'user': User.first, 'product': Product.first)
-cart1=Cart.create('user': User.first, 'active': true)
-c1 = CartItem.create('product': Product.all.first, 'cart_id': Cart.first)
+
+
+
+# Step.create('step': "Make Up Remover", 'what_it_does': 'Breaks down oil-based debris such as makeup and sunscreen', 'how_to_use': 'Morning and night, gently massage into dry skin, add lukewarm water to emulsify, then rinse', 'ingredients': 'Macadamia oil, Jojoba oil, Grape seed oil'  )
+
+# Step.create('step': "Water Based Cleanser", 'what_it_does': 'Removes water-based impurities such as sweat and dirt', 'how_to_use': 'Morning and night, apply to your damp face and neck and massage in a circular motion, then rinse with lukewarm water', 'ingredients': 'Green tea, Rice extract, Pearl extract'  )
+
+# Step.create('step': "Exfoliator", 'what_it_does': 'Cleans debris from pores and removes dead skin cells', 'how_to_use': 'Gently exfoliate 1-2 times/week, focusing on your nose and the visible pores on your cheeks', 'ingredients': 'Black sugar, Salicylic acid, Lactic acid'  )
+
+# Step.create('step': "Toner", 'what_it_does': 'Balances moisture and pH levels', 'how_to_use': 'Use a cotton pad to swipe all across your face or pat gently into your skin using your hands.', 'ingredients': 'Aloe, Licorice, Citric acid'  )
+
+# Step.create('step': "Essence", 'what_it_does': 'Hydrates and aids in cell turnover', 'how_to_use': 'Sprinkle into hands and lightly pat into face and neck', 'ingredients': 'Rice extract, Birch juice, Hyaluronic acid, Yeast'  )
+
+# Step.create('step': "Treatments / Ampoules", 'what_it_does': 'Directly treats problem areas', 'how_to_use': 'Sprinkle into hands and lightly pat into face and neck', 'ingredients': 'Rice extract, Birch juice, Hyaluronic acid, Yeast'  )
+
+# Step.create('step': "Sheet Masks", 'what_it_does': 'Infuses your skin with concentrated essence.', 'how_to_use': 'Smooth onto clean skin, lie back and relax for 15-20 minutes, then pat in excess essence', 'ingredients': 'Cucumber, Green tea, Rose'  )
+
+# Step.create('step': "Eye Cream", 'what_it_does': 'Hydrates and prevents dark circles, puffiness, and crow’s feet', 'how_to_use': 'Use your pinkie to gentle tap (never rub!) around the entire orbital bone, avoiding the water line', 'ingredients': 'Honey, Ginseng, Lily'  )
+
+# Step.create('step': "Moisturizer", 'what_it_does': 'Seals in moisture to plump and smooth skin', 'how_to_use': 'Pat into your face and neck morning and night, every day.', 'ingredients': 'Bamboo, Hyaluronic acid, Centella asiatica (cica), Snail mucin, Green tea'  )
+
+# Step.create('step': "Sunscreen", 'what_it_does': 'Protects the skin from damaging UV rays.', 'how_to_use': 'Gently pat into your face and neck as the last step in your morning routine. Re-apply throughout the day.', 'ingredients': 'Titanium dioxide, Zinc oxide'  )
