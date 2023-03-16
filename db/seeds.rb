@@ -57,27 +57,7 @@ sensitive = SkinConcern.create('name': 'sensitive')
 
 products = [
 
-  {
-    'brand': 'COSRX',
-    'name': 'Acne Pimple Master Patch',
-    'short_description': 'The thin clear hydrocolloid patch is an overnight fixer to make whiteheads, blackheads & picked zits disappear by morning. Find treatments for your skin type.',
-    'detail': "Finally, an acne treatment that treats acne for what it really is, an infected wound. These little cosrx Acne pimple patches are an overnight fixer to make whiteheads, blackheads and picked zits disappear by morning. 
-    As featured on The Strategist 
-    The thin clear hydrocolloid patch feels similar to a hydrogel sheet mask in texture, adhering your skin strongly. It'll stay on through showering and washing! It treats breakouts by eliminating infection and bacteria, which is what causes them in the first place. It's able to breakdown debris from blackheads and absorb gunk from whiteheads overnight, so you won't experience a harsh dry patch from using this. It even helps flatten and heal cystic acne faster!
-    With three differently sized patches in a pack, you can choose which one will cover your bases.
-    Fragrance-free. Product Contains one sheet of patches with 24 patches",
-    'price': 5,
-    'link': '/collections/skincare/products/cosrx-acne-pimple-master-patch',
-    'special_link': '/collections/best-sellers/products/cosrx-acne-pimple-master-patch',
-    'brand_link': '/collections/cosrx',
-    'ingredients': 'Cellulose gum, Styrene Isoprene Styrene Block Copolymer, Polysobutylene, Petroleum Resin, Polyurethane Film, Liquid Paraffin, Tetrakis Methane',
-    'how_to_use': "Wash and dry the targeted area you want to treat. Don't apply any skin treatments or moisturizers between the patch and your skin.
-    Choose a patch sized to do the job and stick it on the zits you want to zap. Now go to bed!
-    Remove in the morning and you'll find that it may have turned white as it absorbs the blemish.",
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Bestseller-Reshoot-PDP_-COSRX-Acne-Pimple-Master-Patch_PDP_1_860x.jpg?v=1572642606',
-    'skin_type': 'normal',
-    'product_type': spot_treatment
-  },
+  
   {
     'brand': 'ACWELL',
     'name': 'Licorice pH Balancing Cleansing Toner',
@@ -119,27 +99,7 @@ products = [
     'product_type': toner
   },
  
-  {
-    'brand': 'COSRX',
-    'name': 'Advanced Snail 96 Mucin Power Essence',
-    'short_description': "The snail mucin essence replenishes skin's moisture & provides intense repair. Prevent new damage and deliver a youthful glow with skin products from Glow Up",
-    'detail': "Featured in the Ipsy Glam Bag
-    If you're into snail mucin, this cosrx Advanced Snail 96 Mucin Power Essence essence has a whopping 96% snail secretion filtrate for super intense repair and hydration. Think of this like vitamins for your face since it's loaded with replenishing and revitalizing nutrients to help prevent and repair damage, giving you ultimate elasticity and hydration.
-    Snail mucin has the ability to repair everything from dry patches, to acne breakouts while helping zap hyperpigmentation, so with loyal use your skin will glow to look its healthiest.
-    Great for all skin types.
-    This product has a pH level of 6.5
-    Fragrance-free.
-    3.38 oz / 100 ml",
-    'price': 21,
-    'link': '/collections/skincare/products/cosrx-advanced-snail-96-mucin-power-essence',
-    'special_link': '/collections/best-sellers/products/cosrx-advanced-snail-96-mucin-power-essence',
-    'brand_link': '/collections/cosrx',
-    'ingredients': 'Snail Secretion Filtrate, Betaine, Butylene Glycol, 1,2-Hexanediol, Sodium Hyaluronate, Panthenol, Arginine, Allantoin, Ethyl Hexanediol, Sodium Polyacrylate, Carbomer, Phenoxyethanol',
-    'how_to_use': 'After cleansing and toning, apply a small amount on your entire face, massaging in to problem areas. Gently pat using fingertips to aid absorption, and then go forth with your serums and moisturizers.', 
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/COSRX_Advanced_Snail_96_Mucin_Power_Essence_Package_Update_PDP_1_860x.jpg?v=1571438550',
-    'skin_type': 'normal',
-    'product_type': essence
-  },
+  
 
   {
     'brand': 'NEOGEN',
@@ -182,24 +142,7 @@ products = [
     'product_type': physical_exfoliator
   },
 
-  {
-    'brand': 'COSRX',
-    'name': 'Low-pH Good Morning Cleanser',
-    'short_description': 'A super gentle cleanser that’s great for your morning wash, this Low-pH Good Morning Cleanser is a low pH formula gel cleanser doesn’t strip your skin of its natural oils and contains purifying botanical ingredients and mild acids to gently cleanse your skin to its most supple and clear texture.', 
-    'detail': "A super gentle cleanser that’s great for your morning wash, this COSRX low pH formula gel cleanser doesn’t strip your skin of its natural oils and contains purifying botanical ingredients and mild acids to gently cleanse your skin to its most supple and clear texture. It's also formulated to remove makeup and other oil-based residue with a skin-happy pH of 5!It’s great for sensitive and dry skin, but does the job no matter what your skin type.
-    Find out why we curated cosrx and read the official review!
-    Fragrance-free.
-    5.07 oz / 150 ml",
-    'price': 12,
-    'link': '/collections/skincare/products/cosrx-low-ph-good-morning-cleanser',
-    'special_link': '/collections/best-sellers/products/cosrx-low-ph-good-morning-cleanser',
-    'brand_link': '/collections/cosrx',
-    'ingredients': 'Water, Cocamidopropyl Betaine, Sodium Lauroyl Methyl Isethionate, Polysorbate 20, Styrax Japonicus Branch/Fruit/Leaf Extract, Butylene Glycol, Saccharomyces Ferment, Cryptomeria Japonica Leaf Extract, Nelumbo Nucifera Leaf Extract, Pinus Palustris Leaf Extract, Ulmus Davidiana Root Extract, Oenothera Biennis (Evening Primrose) Flower Extract, Pueraria Lobata Root Extract, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Allantoin, Caprylyl Glycol, Ethylhexylglycerin, Betaine Salicylate, Citric Acid, Ethyl Hexanediol, 1,2-Hexanediol, Trisodium Ethylenediamine Disuccinate, Sodium Benzoate, Disodium EDTA',
-    'how_to_use': 'Gently massage a small amount of this gel cleanser on wet skin in the morning. Rinse with tepid water. Pat your face dry, and continue with your next skin care steps.',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/COSRX-Low-pH-Good-Morning-Gel-Cleanser-1_860x.jpg?v=1571438550',
-    'skin_type': 'normal',
-    'product_type': water_cleanser
-  },
+
   {
     'brand': 'MISSHA',
     'name': 'First Treatment Essence Mist',
@@ -654,21 +597,7 @@ products = [
     'skin_type': 'normal',
     'product_type': physical_exfoliator
   },
-  {
-    'brand': 'Glow Up Exclusive',
-    'name': '7-Day Sheet Mask Challenge Set',
-    'short_description': 'Want healthy, glowing skin? Get it with the 7-Day Sheet Mask Challenge. Up your skin care game today.',
-    'detail': "Want healthy, glowing skin? Get it!
-    They say that the first step is the hardest, and we wanted to help you take it. We've put together the 7-Day Sheet Mask Challenge Set so that you can sample a variety of masks in one value set. At the end of the challenge, you'll be amazed at how great your skin looks and feels. We'll take full responsibility for your new sheet mask addiction :) 
-    Every month, the selection of masks changes but each mask will be one that you can purchase on Glow Up. Take your skin care game to the next level by joining the #glowup7daychallenge. Here's how:Step 1. Use one sheet mask per day for 7 days straight and watch your skin glow!Step 2. Post a sheet mask selfie on Instagram, Twitter or Facebook.Step 3. Use the hashtag #glowup7daychallenge. Tag three of your friends that you want to challenge.Step 4. Everyone glows!",
-    'price': 25,
-    'link': '/collections/skincare/products/7-day-sheet-mask-challenge-set',
-    'special_link': '/collections/skincare/products/7-day-sheet-mask-challenge-set',
-    'brand_link': '/collections/7-day-sheet-mask-challenge-set',
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Soko-Glam-7-Day-Sheet-Mask-Set_860x.jpg?v=1571438547',
-    'skin_type': 'normal',
-    'product_type': sheet_mask
-  },
+
 
   {
     'brand': 'NEOGEN',
@@ -758,40 +687,8 @@ products = [
     'skin_type': 'normal',
     'product_type': wash_off_mask
   },
-  {
-    'brand': 'Glow Up Exclusive',
-    'name': '10-Step Korean Skincare Routine Set (Combination Skin Type)',
-    'short_description': 'This lightweight base cream is packed with flower extracts you’ll love, including lily, rose, and jasmine. Get brighter, smoother, and more even skin.',
-    'detail': "The famed 10-step Korean skin care routine is easier than ever to do with this value set, curated for your skin type. This Glow Up Exclusive 10-Step Korean Skincare Routine Set (Combination Skin Type) is a combination skin type routine set that specifically targets your skin care needs This value set includes 10 full-size products.*
-    If you're unsure of your skin type or have questions about the products, you can also follow Charlotte's guidelines from The Little Book of Skin Care to see if this set is for you. Signs you have Combination Skin:
-    - Your dry in some areas and oily in others
-    - Your skin can change behavior seasonally
-    - You're normal in some areas and dry/oily in others
-    
-    This combination skin care set contains: 
-    1. Leaders Daily Wonders What Happened Last Night Refreshing Cleansing Oil (oil-based cleanser)
-    2. Acwell Bubble Free pH Balancing Cleanser (water-based cleanser)
-    3. Neogen Canadian Clay Pore Cleanser (exfoliator)
-    4. Swanicoco Bio Ferment F Fermentation Snail Care Skintoner (toner)
-    5. Neogen Real Ferment Micro Essence (Essence)
-    6. Some Bi Mi Galactomyces Pure Vitamin C Glow Serum (serum)
-    7. Hanskin Real Complexion Hyaluron Moisture Mask (one sheet mask for single use)
-    8. Etude House Moistfull Collagen Eye Cream (eye cream)
-    9. Dr.Oracle A-Thera Emulsion (moisturizer) 
-    10. Dr.Oracle A-Thera Sunblock SPF 50 (sun screen)
+
   
-    Note: This set does not come in a gift box.
-    *All products are full-sized; set components are subject to change.",
-    'price': 199,
-    'link': '/collections/skincare/products/10-step-skincare-routine-set-combo',
-    'special_link': '/collections/skincare/products/10-step-skincare-routine-set-combo',
-    'brand_link': '/collections/10-step-skincare-routine-set-combo',
-    'how_to_use': "Choose a patch sized to do the job and stick it on the zits you want to zap. Now go to bed!
-    Remove in the morning and you'll find that it may have turned white as it absorbs the blemish.",
-    'img_url': 'http://cdn.shopify.com/s/files/1/0249/1218/products/Bestseller-Reshoot-PDP_-COSRX-Acne-Pimple-Master-Patch_PDP_1_860x.jpg?v=1572642606',
-    'skin_type': 'normal',
-    'product_type': special
-  },
   {
     'brand': 'SON & PARK',
     'name': 'Beauty Filter Cream Glow',
